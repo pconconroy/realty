@@ -15,7 +15,78 @@ nav a {
   margin: 1em;
 }
 
-form div {
+/* form div {
   margin: 1em;
   display: inline-block;
+} */
+/*
+ * CreateX | Multipurpose Bootstrap Theme
+ * Copyright 2019 Createx Studio
+ * Theme Styles
+ */
+
+.planet-mobile {
+  position: absolute !important;
+  top: 20%;
+  left: 14%;
+  width: 80px;
+}
+#team-pic-bigger {
+  height: 130% !important;
+}
+.team-card-style-1 .team-thumb {
+  height: auto !important;
+}
+.team-contact-link {
+  font-size: 0.7em !important;
+}
+.about {
+  margin-top: 3%;
+}
+.inquiries {
+  margin-top: 3%;
+}
+.commercial-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.grid-item {
+  flex: 1 !important;
+  min-width: 250px;
+  max-width: 250px;
+  margin: auto !important;
+}
+.commercial-photo {
+  height: 200px;
+  width: 100%;
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  background-size: cover;
+}
+#trans-margin {
+  margin: 30px !important;
+}
+.d-table-cell {
+  padding: 0 !important;
+}
+#slim-down {
+  width: 50%;
+  margin-left: 25%;
+}
+.chart-right {
+  position: absolute;
+  left: 35%;
+  top: 20%;
+}
+.d-block {
+  height: 200px;
+  object-fit: cover;
+}
+.d-block img {
+  height: auto !important;
+  width: 140px;
+  padding: 0 !important;
 }

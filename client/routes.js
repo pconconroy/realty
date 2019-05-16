@@ -4,7 +4,12 @@ import {withRouter, Route, Switch} from 'react-router-dom'
 import PropTypes from 'prop-types'
 import {Login, Signup, UserHome} from './components'
 import {me} from './store'
-
+import Personnel from './components/personnel'
+import Commercial from './components/commercial'
+import Inquiries from './components/inquiries'
+import About from './components/about'
+import Transactions from './components/transactions'
+import Home from './components/home'
 /**
  * COMPONENT
  */
@@ -21,14 +26,21 @@ class Routes extends Component {
         {/* Routes placed here are available to all visitors */}
         <Route path="/login" component={Login} />
         <Route path="/signup" component={Signup} />
+        <Route path="/Commercial" component={Commercial} />
+        <Route path="/Inquiries" component={Inquiries} />
+        <Route path="/Transactions" component={Transactions} />
+        <Route path="/About" component={About} />
+        <Route path="/Personnel" component={Personnel} />
+        <Route path="/home" component={Home} />
+
         {isLoggedIn && (
           <Switch>
             {/* Routes placed here are only available after logging in */}
-            <Route path="/home" component={UserHome} />
+            <Route path="/home" component={About} />
           </Switch>
         )}
         {/* Displays our Login component as a fallback */}
-        <Route component={Login} />
+        <Route component={About} />
       </Switch>
     )
   }
