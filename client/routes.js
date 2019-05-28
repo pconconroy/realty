@@ -10,6 +10,7 @@ import Inquiries from './components/inquiries'
 import About from './components/about'
 import Transactions from './components/transactions'
 import Home from './components/home'
+import Internship from './components/internship'
 /**
  * COMPONENT
  */
@@ -32,6 +33,7 @@ class Routes extends Component {
         <Route path="/About" component={About} />
         <Route path="/Personnel" component={Personnel} />
         <Route path="/home" component={Home} />
+        <Route path="/internship" component={Internship} />
 
         {isLoggedIn && (
           <Switch>

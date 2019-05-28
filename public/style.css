@@ -51,6 +51,7 @@ nav a {
   flex-direction: row;
   flex-wrap: wrap;
   align-content: space-around;
+  padding-top: 1.5rem;
 }
 .grid-item {
   flex: 1 !important;
@@ -81,12 +82,131 @@ nav a {
   left: 35%;
   top: 20%;
 }
-.d-block {
+/* .d-block {
   height: 200px;
   object-fit: cover;
-}
+} */
 .d-block img {
   height: auto !important;
   width: 140px;
   padding: 0 !important;
+}
+.middle {
+  text-align: center;
+  align-content: center;
+  max-width: 250px;
+  margin: auto;
+  object-fit: fill;
+}
+.middle img {
+  width: 100% !important;
+}
+.navbar-wrapper {
+  align-content: center;
+  text-align: center;
+}
+.d-table-cell {
+  text-align: center;
+}
+#navbar-me {
+  background-color: transparent !important;
+}
+.owl-carousel-owl-loaded {
+  display: block !important;
+}
+#no-margin-card {
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+}
+
+.post-thumb img {
+  object-fit: cover !important;
+  min-height: 200px;
+
+  height: 210px !important;
+}
+.owl-item {
+  height: 100% !important;
+}
+#center-picture {
+  display: flex;
+  justify-content: center !important;
+  width: 100%;
+}
+#center-image {
+  margin: auto;
+  width: 100%;
+}
+#centered-caro {
+  margin: auto;
+  height: 270px !important;
+  object-fit: contain;
+}
+/* .owl-carousel {
+  display: initial !important;
+} */
+.navbar-brand > img {
+  max-width: 150%;
+  width: 100%;
+}
+#wider-logo {
+  width: 15%;
+  min-width: 200px;
+  padding: 0 !important;
+}
+#wider-a {
+  width: 100%;
+}
+#more-padding {
+  padding-right: 3em !important;
+  padding-left: 3em !important;
+}
+#align-right {
+  text-align: right;
+  padding-right: 3em;
+  padding-left: 3em;
+}
+/* .owl-carousel {
+  display: block !important;
+} */
+#fill-image {
+  background-size: contain;
+  width: 100%;
+}
+#new-gradient {
+  background: linear-gradient(
+    to right,
+    #ef5b5b 0%,
+    white 40%,
+    lightblue 90%
+  ) !important;
+}
+#int-rates {
+  position: fixed;
+  bottom: -3.5%;
+  z-index: 100;
+}
+.quotes {
+  width: 200px !important;
+}
+#center-com {
+  text-align: center;
+}
+#some-margin {
+  margin-top: 2px !important;
+}
+#no-border {
+  border-color: transparent;
+}
+#new-grad-blue {
+  background: linear-gradient(
+    to right,
+    lightblue 0%,
+    blue 20%,
+    darkblue 100%
+  ) !important;
+}
+#new-button {
+  background-color: blue !important;
 }

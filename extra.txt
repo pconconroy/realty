@@ -1,0 +1,302 @@
+<div className="center-home">
+        <section className="bg-parallax" id="slim-down">
+          <div
+            className="bg-parallax-img"
+            data-parallax="{&quot;y&quot; : 100}"
+          >
+            <img src="img/pages/service-hero-bg.png" alt="Service" />
+          </div>
+          <div className="container bg-parallax-content pt-5 pb-5">
+            <h1 className="h2 block-title text-center">Home</h1>
+            <div className="row justify-content-center pt-2">
+              <div className="col-xl-8 col-lg-9 col-md-10">
+                <p className="opacity-80 text-center" />
+                <p className="opacity-80 text-center">
+                  Prairie Realty Advisors, Inc., is a commercial mortgage
+                  banking company based in Chicago, IL. We offer a broad array
+                  of commercial loan programs through our active lender
+                  relationships. With these programs we are able to access
+                  appropriate capital for most property transactions.
+                </p>
+                <p className="opacity-80 text-center">
+                  Our company consists of three main areas - Loan Production,
+                  Construction Lending and Loan Servicing. The Production and
+                  Construction areas facilitate commercial loans from our
+                  lenders to our clients for the purpose of acquiring,
+                  refinancing, or constructing commercial property. Our
+                  servicing division works closely with our clients and Lenders
+                  to maintain and service the loan once closed.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/*START theFinancials.com Content*/}
+        {/*copyright theFinancials.com - All Rights Reserved*/}
+        {/*Get Help by Calling 1.843.886.3635*/}
+        <iframe
+          className="chart-right"
+          style={{width: '100vw', height: 500}}
+          src="https://www.thefinancials.com/syndicated/Free/EXc_Interest_MajorUS.html"
+          marginHeight={0}
+          marginWidth={0}
+          hspace={0}
+          vspace={0}
+          frameBorder="no"
+          title="Major US Interest Rates"
+        />
+        {/*END theFinancials.com Content*/}
+
+        <section className="container py-5 my-2">
+          <h2 className="h3 block-title text-center mt-3 mb-5">
+            Our Partners<small>
+              Well respected people and companies from around the world
+            </small>
+          </h2>
+          <div className="row">
+            <div className="col-6 col-md-3">
+              <a className="d-block box-shadow py-5 mb-30" href="#">
+                <img
+                  className="d-block mx-auto"
+                  src="/assets/aegon.png"
+                  width={165}
+                  alt="Partner"
+                />
+              </a>
+            </div>
+            <div className="col-6 col-md-3">
+              <a className="d-block box-shadow py-5 mb-30" href="#">
+                <img
+                  className="d-block mx-auto"
+                  src="/assets/bankbnorth.jpg"
+                  width={165}
+                  alt="Partner"
+                />
+              </a>
+            </div>
+            <div className="col-6 col-md-3">
+              <a className="d-block box-shadow py-5 mb-30" href="#">
+                <img
+                  className="d-block mx-auto"
+                  src="/assets/coram.png"
+                  width={165}
+                  alt="Partner"
+                />
+              </a>
+            </div>
+            <div className="col-6 col-md-3">
+              <a className="d-block box-shadow py-5 mb-30" href="#">
+                <img
+                  className="d-block mx-auto"
+                  src="/assets/credits.png"
+                  width={165}
+                  alt="Partner"
+                />
+              </a>
+            </div>
+            <div className="col-6 col-md-3">
+              <a className="d-block box-shadow py-5 mb-30" href="#">
+                <img
+                  className="d-block mx-auto"
+                  src="/assets/dunlop.png"
+                  width={165}
+                  alt="Partner"
+                />
+              </a>
+            </div>
+            <div className="col-6 col-md-3">
+              <a className="d-block box-shadow py-5 mb-30" href="#">
+                <img
+                  className="d-block mx-auto"
+                  src="/assets/fargo.png"
+                  width={165}
+                  alt="Partner"
+                />
+              </a>
+            </div>
+            <div className="col-6 col-md-3">
+              <a className="d-block box-shadow py-5 mb-30" href="#">
+                <img
+                  className="d-block mx-auto"
+                  src="/assets/pnc.jpg"
+                  width={165}
+                  alt="Partner"
+                />
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+
+
+
+<header className="navbar-wrapper navbar-sticky" id="navbar-me">
+      {/* <img src="/assets/PRALOGO.jpg" alt="CreateX" /> */}
+      <div className="d-table-cell w-100 align-middle pl-md-3">
+        <div className="middle align-middle pr-md-3">
+          <a className="navbar-brand mr-1" href="index.html">
+            <img src="/assets/PRALOGO.jpg" alt="CreateX" />
+          </a>
+        </div>
+        <div className="navbar-top d-none d-lg-flex justify-content-between align-items-center">
+          <div>
+            <a className="navbar-link mr-3" href="tel:+1212477690000" />
+            <a className="navbar-link mr-3">
+              325 W Huron St # 412, Chicago, IL 60654
+            </a>
+          </div>
+          <div />
+        </div>
+        <div className="navbar justify-content-end justify-content-lg-between">
+          {/* Search*/}
+          <form className="search-box" method="get">
+            <input
+              type="text"
+              id="site-search"
+              placeholder="Type A or C to see suggestions"
+            />
+            <span className="search-close">
+              <i className="fe-icon-x" />
+            </span>
+          </form>
+          {/* Main Menu*/}
+          <ul className="navbar-nav d-none d-lg-block">
+            {/* Home*/}
+            <li className="nav-item mega-dropdown-toggle">
+              <Link className="nav-link" to="/home">
+                Home
+              </Link>
+            </li>
+            {/* Portfolio*/}
+            <li className="nav-item dropdown-toggle">
+              <Link className="nav-link" to="/Commercial">
+                Commercial
+              </Link>
+            </li>
+            {/* Blog*/}
+            <li className="nav-item mega-dropdown-toggle">
+              <Link className="nav-link" to="/Inquiries">
+                Inquiries
+              </Link>
+            </li>
+            {/* Shop*/}
+            <li className="nav-item mega-dropdown-toggle">
+              <Link className="nav-link" to="/Transactions">
+                Transactions
+              </Link>
+            </li>
+            {/* Account*/}
+            <li className="nav-item dropdown-toggle">
+              <Link className="nav-link" to="About">
+                About
+              </Link>
+            </li>
+            {/* Pages*/}
+            <li className="nav-item dropdown-toggle">
+              <Link className="nav-link" to="/Personnel">
+                Personnel
+              </Link>
+            </li>
+            {/* Components*/}
+          </ul>
+          <div>
+            <ul className="navbar-buttons d-inline-block align-middle mr-lg-2">
+              <li className="d-block d-lg-none">
+                <a href="#mobile-menu" data-toggle="offcanvas">
+                  <i className="fe-icon-menu" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+    <div>
+        <section className="bg-parallax">
+          <div
+            className="bg-parallax-img"
+            data-parallax="{&quot;y&quot; : 100}"
+          >
+            <img src="img/pages/service-hero-bg.png" alt="Service" />
+          </div>
+          <div className="container bg-parallax-content pt-5 pb-5">
+            <h1 className="h2 block-title text-center">About</h1>
+            <div className="row justify-content-center pt-2">
+              <div className="col-xl-8 col-lg-9 col-md-10">
+                <p className="opacity-80 text-center" />
+                <p className="opacity-80 text-center">
+                  Prairie Realty Advisors, Inc. ("PRA" or the "Company") is a
+                  regional real estate financial services firm specializing in
+                  origination and servicing of commercial mortgages and income
+                  producing property. PRA was formed in September of 1992 to
+                  operate as an efficient intermediary providing access to real
+                  estate capital as well as a broad range of advisory services
+                  to medium sized institutional real estate investors. To date
+                  PRA has arranged over $3.0 billion in mortgage transactions.
+                </p>
+                <p className="opacity-80 text-center">
+                  As a mortgage banker, PRA originates, sells and services
+                  commercial real estate loans. In return for providing these
+                  services, the Company receives remuneration in the form of
+                  fees from borrowers or clients for originating the
+                  transaction, and servicing override fees for "servicing" loans
+                  for a lender. PRA has relationships with many institutional
+                  lenders throughout the U.S. The firm is able to provide
+                  capital to borrowers for loans ranging from $2,000,000 and
+                  above.
+                </p>
+                <p className="opacity-80 text-center">
+                  Headquartered in Chicago, the firm services a direct market of
+                  over 15 million people. PRA takes special pride in the fact
+                  that it is employed by its clients across geographic
+                  boundaries. It works hard to create a bond between lender and
+                  borrower in an attempt to realizing a higher percentage of
+                  repeat business.
+                </p>
+                <p className="opacity-80 text-center">
+                  As of January 2014, the firm has four employees. Loan
+                  production and firm administration are the responsibility of
+                  John F. Siff, President. Mr. Alby Van Alyea, Managing
+                  Director, is primarily responsible for origination of loan
+                  opportunities and production and reports to Mr. Siff. Loan
+                  underwriting, administration, closing and servicing are under
+                  the purview of Mr. Sandy Payne, Vice President. In order to
+                  oversee the servicing portfolio, management has prudently
+                  employed additional staff reporting to Payne.
+                </p>
+                <p className="opacity-80 text-center">
+                  Ms. Rosemarie Kern came on board in 1998 to oversee day to day
+                  operation of the servicing company. With over 20 years of
+                  accounting and servicing experience, Ms. Kern oversees all
+                  Investor reporting, the Annual Audit and year-end reporting
+                  functions as well.
+                </p>
+                <p className="opacity-80 text-center">
+                  PRA has combined experience of over 100 years in the real
+                  estate profession. It is a member in good standing with the
+                  Mortgage Bankers of America, State of Illinois - Department of
+                  Professional Regulation, and the Urban Land Institute. Mr.
+                  Siff, 57, has arranged, serviced, sold or purchased over two
+                  billion dollars of real estate. He has been employed in the
+                  mortgage banking industry since 1979 and held a myriad of
+                  staff and line positions with several of the oldest and
+                  revered firms in Chicago. Mr. Payne, 65, has been in the real
+                  estate business since 1974. Line responsibilities have been
+                  broad, from acquisitions to portfolio management.
+                </p>
+                <p className="opacity-80 text-center">
+                  PRA is proud of its success over the past twenty-one years.
+                  The Board of Directors consist of Management affiliated with
+                  MyFreightWorld.com, Kirkland and Ellis, Marsh, Marriott
+                  Corporation, PriceWaterhouseCoopers and Wolverine Mutual
+                  Insurance Co.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
