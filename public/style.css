@@ -184,7 +184,7 @@ nav a {
 }
 #int-rates {
   position: fixed;
-  bottom: -3.5%;
+  bottom: -35px;
   z-index: 100;
 }
 .quotes {

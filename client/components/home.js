@@ -83,7 +83,7 @@ class Home extends Component {
                         Customers
                       </h2>
                       <p className="text-xl text-white opacity-75 pb-4">
-                        Servicing Portfolio of over $400 million.
+                        Servicing Portfolio of over $300 million.
                       </p>
                       <Link className="btn btn-style-4 btn-light" to="/about">
                         Learn More
@@ -396,8 +396,7 @@ class Home extends Component {
           >
             <h2 className="block-title text-white mt-5 mb-4">
               Why Prairie Realty Advisors?<small className="text-white">
-                We are leading risk management and certification company with
-                over 30 years of expertise.
+                We are a leading company with over 25 years of experience.
               </small>
             </h2>
             <Link className="btn btn-style-4 btn-light mb-5" to="/inquiries">
