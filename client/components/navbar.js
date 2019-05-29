@@ -118,11 +118,7 @@ const Navbar = ({handleClick, isLoggedIn}) => (
                 </Link>
               </li>
               {/* Portfolio*/}
-              <li className="nav-item dropdown-toggle">
-                <Link className="nav-link" to="/internship">
-                  Internship
-                </Link>
-              </li>
+
               {/* Blog*/}
               <li className="nav-item mega-dropdown-toggle">
                 <Link className="nav-link" to="/about">
@@ -157,6 +153,11 @@ const Navbar = ({handleClick, isLoggedIn}) => (
                   }}
                 >
                   Transactions
+                </Link>
+              </li>
+              <li className="nav-item dropdown-toggle">
+                <Link className="nav-link" to="/internship">
+                  Internship
                 </Link>
               </li>
             </ul>

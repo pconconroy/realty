@@ -79,8 +79,8 @@ class Home extends Component {
                   >
                     <div className="d-table-cell align-middle">
                       <h2 className="display-4 text-white">
-                        <em className="font-weight-light">Focusing on</em>{' '}
-                        Customers
+                        <em className="font-weight-light">Prairie Realty Advisors</em>
+
                       </h2>
                       <p className="text-xl text-white opacity-75 pb-4">
                         Servicing Portfolio of over $300 million.
@@ -96,7 +96,7 @@ class Home extends Component {
           </div>
         </section>
         {/* About*/}
-        <section className="container my-5">
+        {/* <section className="container my-5">
           <div className="bg-secondary px-3 py-5">
             <div className="row justify-content-center">
               <div className="col-xl-8 col-lg-10 pt-3 text-center">
@@ -131,11 +131,11 @@ class Home extends Component {
                 >
                   Learn More
                 </Link>
-                {/* <a className="video-player-button my-3 mr-3" href="https://player.vimeo.com/video/56362909?color=ac32e4&title=0&byline=0&portrait=0" data-fancybox data-width={1000} data-height={563}><i className="fe-icon-play" /></a><span className="video-player-label text-muted">Corporate video</span> */}
+
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* Services*/}
         {/* <section className="container pt-3">
     <h2 className="h3 block-title text-center">What we do<small>Whatever we do, we do with you in mind </small></h2>
@@ -161,7 +161,7 @@ class Home extends Component {
     </div>
   </section> */}
         {/* News ans Events*/}
-        <section className="container-fluid pt-sm-4 pb-5">
+        {/* <section className="container-fluid pt-sm-4 pb-5">
           <div className="row justify-content-center">
             <div className="col-xl-5 col-lg-6 mb-5 mb-lg-0" id="center-picture">
               <div
@@ -178,11 +178,7 @@ class Home extends Component {
                   <h5 className="font-family-body font-weight-light text-white mb-5">
                     Apply for an internship today!
                   </h5>
-                  {/* <div
-                    className="countdown countdown-style-2 countdown-light-skin h4 mb-3"
-                    data-date-time="10/10/2020 12:00"
-                    data-labels="{&quot;label-day&quot;: &quot;Days&quot;, &quot;label-hour&quot;: &quot;Hours&quot;, &quot;label-minute&quot;: &quot;Mins&quot;, &quot;label-second&quot;: &quot;Secs&quot;}"
-                  /> */}
+
                   <br />
                   <Link
                     className="btn btn-style-4 btn-gradient mb-3"
@@ -292,48 +288,14 @@ class Home extends Component {
                       company="Bank"
                       price="$5,500,000"
                     />
-
-                    {/* <img src="/assets/Walgreens.jpg" alt="Carousel Image" />
-            <img src="/assets/UofIPhotov2.jpg" alt="Carousel Image" />
-            <img src="/assets/waukphoto.jpg" alt="Carousel Image" />
-            <img src="/assets/tetons4.jpeg" alt="Carousel Image" />
-            <img src="/assets/OrlandPhoto.jpg" alt="Carousel Image" />
-            <img src="/assets/Oneidaphoto.jpg" alt="Carousel Image" /> */}
                   </div>
-
-                  {/* <div className="col-sm-6 mb-4">
-              <div className="blog-card border"><a className="post-thumb" href="#"><img src="img/homepages/corporate-website/news01.jpg" alt="Post Thumbnail" /></a>
-                <div className="card-body">
-                  <h5 className="post-title"><a href="#">Ensure safety in a high-risk environment</a></h5><a className="tag-link" href="#">Risk management</a>
-                </div>
-                <div className="card-footer"><a className="post-author" href="#">
-                    <div className="post-author-avatar"><img src="img/blog/authors/th01.jpg" alt="Post Author" />
-                    </div>
-                    <div className="post-author-name">Sara Palson</div></a>
-                  <div className="post-meta"><a href="#"><i className="fe-icon-message-square" />21</a><span><i className="fe-icon-clock" />Sep 03, 2018</span></div>
-                </div>
-              </div>
-            </div> */}
-                  {/* <div className="col-sm-6 mb-4">
-              <div className="blog-card border"><a className="post-thumb" href="#"><img src="img/homepages/corporate-website/news02.jpg" alt="Post Thumbnail" /></a>
-                <div className="card-body">
-                  <h5 className="post-title"><a href="#">Adapt to a changing business environment</a></h5><a className="tag-link" href="#">Business</a>
-                </div>
-                <div className="card-footer"><a className="post-author" href="#">
-                    <div className="post-author-avatar"><img src="img/blog/authors/th02.jpg" alt="Post Author" />
-                    </div>
-                    <div className="post-author-name">Mark Peterson</div></a>
-                  <div className="post-meta"><a href="#"><i className="fe-icon-message-square" />19</a><span><i className="fe-icon-clock" />Aug 26, 2018</span></div>
-                </div>
-              </div>
-            </div> */}
                 </div>
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* Clients*/}
-        <section className="container pb-5 my-sm-2">
+        {/* <section className="container pb-5 my-sm-2">
           <h2 className="h3 block-title text-center mt-sm-3 mb-5">
             Institutional Correspondent Lenders
           </h2>
@@ -377,33 +339,11 @@ class Home extends Component {
               />
             </div>
 
-            {/* <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/01.png" width={165} alt="Partner" /></a></div>
-      <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/02.png" width={165} alt="Partner" /></a></div>
-      <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/03.png" width={165} alt="Partner" /></a></div>
-      <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/04.png" width={165} alt="Partner" /></a></div>
-      <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/07.png" width={165} alt="Partner" /></a></div>
-      <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/05.png" width={165} alt="Partner" /></a></div>
-      <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/08.png" width={165} alt="Partner" /></a></div>
-      <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/09.png" width={165} alt="Partner" /></a></div> */}
+
           </div>
-        </section>
+        </section> */}
         {/* Contact Us CTA*/}
-        <section className="bg-gradient py-4" id="new-gradient">
-          <div
-            className="container position-relative bg-no-repeat bg-center py-5 text-center"
-            id="fill-image"
-            style={{backgroundImage: 'url(assets/chiskyline.jpg)'}}
-          >
-            <h2 className="block-title text-white mt-5 mb-4">
-              Why Prairie Realty Advisors?<small className="text-white">
-                We are a leading company with over 25 years of experience.
-              </small>
-            </h2>
-            <Link className="btn btn-style-4 btn-light mb-5" to="/inquiries">
-              Contact Us
-            </Link>
-          </div>
-        </section>
+
         {/* Footer*/}
         <Footer />
         {/* Back To Top Button*/}

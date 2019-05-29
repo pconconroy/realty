@@ -74,7 +74,7 @@ class Personnel extends Component {
             <div className="col-xl-3 col-sm-6 mb-30">
               <div className="team-card-style-3 mx-auto">
                 <div className="team-thumb">
-                  <img src="assets/albypic.jpeg" alt="Team Member Picture" />
+                  <img src="assets/alby.jpg" alt="Team Member Picture" />
                 </div>
                 <span className="team-position">Managing Director </span>
                 <h4 className="team-name">Albert E. Van Alyea</h4>
@@ -105,7 +105,7 @@ class Personnel extends Component {
             <div className="col-xl-3 col-sm-6 mb-30">
               <div className="team-card-style-3 mx-auto">
                 <div className="team-thumb">
-                  <img src="assets/sabbitt.jpg" alt="Team Member Picture" />
+                  <img src="assets/sabitt.jpg" alt="Team Member Picture" />
                 </div>
                 <span className="team-position">Controller</span>
                 <h4 className="team-name">Jon Sabitt</h4>

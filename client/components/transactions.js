@@ -61,86 +61,173 @@ class Transactions extends Component {
             <div className="row pt-4">
               <div
                 className="owl-carousel"
-                data-owl-carousel="{ &quot;nav&quot;: false, &quot;dots&quot;: true, &quot;loop&quot;: true, &quot;margin&quot;: 30, &quot;autoplay&quot;: false, &quot;autoplayTimeout&quot;: 4000, &quot;responsive&quot;: {&quot;0&quot;:{&quot;items&quot;:1},&quot;630&quot;:{&quot;items&quot;:2},&quot;991&quot;:{&quot;items&quot;:3},&quot;1200&quot;:{&quot;items&quot;:5}} }"
+                id="carousel"
+                data-owl-carousel="{ &quot;nav&quot;: true, &quot;dots&quot;: true, &quot;loop&quot;: true, &quot;margin&quot;: 30, &quot;autoplay&quot;: true, &quot;autoplayTimeout&quot;: 4000, &quot;responsive&quot;: {&quot;0&quot;:{&quot;items&quot;:1},&quot;630&quot;:{&quot;items&quot;:2},&quot;991&quot;:{&quot;items&quot;:3},&quot;1200&quot;:{&quot;items&quot;:5}} }"
               >
                 <TransCard
                   image="DenverPhoto.jpg"
-                  location="Denver, CO"
+                  location="Industrial Building"
                   company="Life Company"
                   price="$2,000,000+"
                 />
                 <TransCard
                   image="ElginPhoto.png"
-                  location="Elgin, IL"
+                  location="Neighborhood Retail Center"
                   company="Bank"
                   price="$1,600,000"
                 />
                 <TransCard
                   image="Walgreens.jpg"
-                  location="Oswego, IL"
+                  location="Walgreens Drugs"
                   company="Life Company"
                   price="$3,800,000"
                 />
                 <TransCard
                   image="OrlandPhoto.jpg"
-                  location="Orland Park, IL"
+                  location="Medical"
                   company="Life Company"
                   price="$2,200,000"
                 />
                 <TransCard
                   image="Oneidaphoto.jpg"
-                  location="Denver, CO"
+                  location="Oneida Cold Storage"
                   company="Life Company"
                   price="$19,500,000"
                 />
                 <TransCard
                   image="MSUPhoto2014v2.jpg"
-                  location="Starkville, MS"
+                  location="Student Housing"
                   company="Agency Lender"
                   price="$19,000,000"
                 />
                 <TransCard
                   image="kindercare.jpg"
-                  location="Oswego, IL"
+                  location="Child Care Facility"
                   company="Life Company"
                   price="$3,800,000"
                 />
                 <TransCard
                   image="marketsquarephoto.jpg"
-                  location="Lake Forest, IL"
+                  location="Market Square"
                   company="CMBS"
                   price="$29,000,000"
                 />
                 <TransCard
                   image="waukphoto.jpg"
-                  location="Suburban Chicago, IL"
+                  location="Medical Office Buildings"
                   company="CMBS"
                   price="$20,000,000+"
                 />
                 <TransCard
-                  image="corporate-headquarters.jpg"
-                  location="Elmhurst, IL"
+                  image="newprop6.jpg"
+                  location="Superior Office HQ"
                   company="Life Company"
                   price="$20,000,000+"
                 />
                 <TransCard
-                  image="LUMCParkRidge.jpg"
-                  location="Park Ridge, IL"
+                  image="LUMCprop.jpg"
+                  location="Medical Office"
                   company="Life Company"
                   price="$1,300,000"
                 />
                 <TransCard
                   image="StaybridgeGlenviewPhoto.jpg"
-                  location="Glenview, IL"
+                  location="Staybridge Suites Hotel"
                   company="CMBS"
                   price="$10,000,000+"
                 />
                 <TransCard
-                  image="Oneidaphoto.jpg"
-                  location="Urbana, IL"
+                  image="UofIphotov2.jpg"
+                  location="Student Housing"
                   company="Bank"
                   price="$5,500,000"
                 />
+                  <TransCard
+                image="newprop1.jpg"
+                location="Property"
+                company="Bank"
+                price="$5,500,000"
+              />
+
+                <TransCard
+                image="newprop2.jpg"
+                location="Property"
+                company="Bank"
+                price="$5,500,000"
+              />
+              <TransCard
+                image="newprop3.jpg"
+                location="Property"
+                company="Bank"
+                price="$5,500,000"
+              />
+              <TransCard
+                image="newprop4.jpg"
+                location="Property"
+                company="Bank"
+                price="$5,500,000"
+              />
+              <TransCard
+                image="newprop5.jpg"
+                location="Property"
+                company="Bank"
+                price="$5,500,000"
+              />
+                <TransCard
+                image="flexindus.jpg"
+                location="Flex Industrial"
+                company="Bank"
+                price="$1,350,000"
+              />
+                <TransCard
+                image="aldi.JPG"
+                location="Aldi"
+                company="Insurance Co"
+                price="$1,960,000"
+              />
+                <TransCard
+                image="retailstrip62.jpg"
+                location="Retail Strip"
+                company="Bank"
+                price="$3,000,000"
+              />
+                <TransCard
+                image="retail.jpg"
+                location="Retail"
+                company="Insurance Co"
+                price="$1,250,000"
+              />
+                <TransCard
+                image="walmart.jpg"
+                location="Walmart Neighborhood Market"
+                company="Term Loan"
+                price="$6,800,000"
+              />
+                <TransCard
+                image="lincolnparkapt.jpg"
+                location="Lincoln Park Apartments"
+                company="Bank"
+                price="$2,350,000"
+              />
+                <TransCard
+                image="industrial.jpg"
+                location="Industrial"
+                company="Bank"
+                price="$3,500,000"
+              />
+                <TransCard
+                image="appartmentpor.jpg"
+                location="Apartment Portfolio"
+                company="Agency Lender"
+                price="$7,200,000"
+              />
+                <TransCard
+                image="newprop5.jpg"
+                location="Retail Strip Center"
+                company="Term Loan"
+                price="$4,900,000"
+              />
+
 
                 {/* <img src="/assets/Walgreens.jpg" alt="Carousel Image" />
   <img src="/assets/UofIPhotov2.jpg" alt="Carousel Image" />

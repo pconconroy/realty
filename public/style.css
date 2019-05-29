@@ -157,6 +157,7 @@ nav a {
 }
 #wider-a {
   width: 100%;
+  margin-bottom: .75rem !important;
 }
 #more-padding {
   padding-right: 3em !important;
@@ -210,3 +211,15 @@ nav a {
 #new-button {
   background-color: blue !important;
 }
+#small-disc {
+font-size: 5pt !important;
+}
+#carousel button {
+  background-color: #fff !important;
+}
+
+#vert-align {
+margin-top: 5%;
+
+}
+

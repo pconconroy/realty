@@ -145,14 +145,80 @@ class About extends Component {
               </p>
             </div>
           </div>
+          <section className="container pb-5 my-sm-2">
+            {/* <h2 className="h3 block-title text-center mt-sm-3 mb-5">
+              Institutional Correspondent Lenders
+            </h2> */}
+            <div className="text-center pt-5 pb-4 mt-3">
+              <h3 className="h4 mb-1">Institutional Correspondent Lenders</h3>
+              <p className="text-muted">
+                Performance based on long term mutual respect.
+              </p>
+            </div>
+            <div className="row">
+              <div
+                className="owl-carousel"
+                id="carousel"
+                data-owl-carousel="{ &quot;nav&quot;: true, &quot;dots&quot;: true, &quot;loop&quot;: true, &quot;margin&quot;: 30, &quot;autoplay&quot;: true, &quot;autoplayTimeout&quot;: 4000, &quot;responsive&quot;: {&quot;0&quot;:{&quot;items&quot;:1},&quot;630&quot;:{&quot;items&quot;:2},&quot;991&quot;:{&quot;items&quot;:3},&quot;1200&quot;:{&quot;items&quot;:4}} }"
+              >
+                <img src="/assets/coram.png" alt="Carousel Image" />
+                <img
+                  src="/assets/aegon.png"
+                  id="centered-caro"
+                  alt="Carousel Image"
+                />
+                <img
+                  src="/assets/credits.png"
+                  id="centered-caro"
+                  alt="Carousel Image"
+                />
+                <img src="/assets/fargo.png" alt="Carousel Image" />
+                <img src="/assets/pnc.jpg" alt="Carousel Image" />
+                <img
+                  src="/assets/bankbnorth.jpg"
+                  alt="Carousel Image"
+                  id="centered-caro"
+                />
+                <img
+                  src="/assets/colum.png"
+                  alt="Carousel Image"
+                  id="centered-caro"
+                />
+                <img
+                  src="/assets/farmfamily.jpg"
+                  alt="Carousel Image"
+                  id="centered-caro"
+                />
+                <img
+                  src="/assets/walker.png"
+                  alt="Carousel Image"
+                  id="centered-caro"
+                />
+                 <img
+                  src="/assets/westernandsouthern.png"
+                  alt="Carousel Image"
+                  id="centered-caro"
+                />
+              </div>
+
+              {/* <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/01.png" width={165} alt="Partner" /></a></div>
+      <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/02.png" width={165} alt="Partner" /></a></div>
+      <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/03.png" width={165} alt="Partner" /></a></div>
+      <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/04.png" width={165} alt="Partner" /></a></div>
+      <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/07.png" width={165} alt="Partner" /></a></div>
+      <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/05.png" width={165} alt="Partner" /></a></div>
+      <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/08.png" width={165} alt="Partner" /></a></div>
+      <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/09.png" width={165} alt="Partner" /></a></div> */}
+            </div>
+          </section>
           {/* Team*/}
-          <div className="text-center pt-5 pb-4 mt-3">
+          {/* <div className="text-center pt-5 pb-4 mt-3">
             <h3 className="h4 mb-1">Our Team</h3>
             <p className="text-muted">The people making it happen.</p>
-          </div>
-          <div className="row">
-            {/* Team member*/}
-            <div className="col-xl-3 col-sm-6 mb-30">
+          </div> */}
+          {/* <div className="row"> */}
+
+          {/* <div className="col-xl-3 col-sm-6 mb-30">
               <div className="team-card-style-3 mx-auto">
                 <div className="team-thumb">
                   <img src="assets/siffphoto.jpeg" alt="Team Member Picture" />
@@ -177,13 +243,11 @@ class About extends Component {
                 >
                   Learn More
                 </Link>
-                {/* <div className="team-social-bar-wrap">
-            <div className="team-social-bar"><a className="social-btn sb-style-1 sb-twitter" href="#"><i className="socicon-twitter" /></a><a className="social-btn sb-style-1 sb-github" href="#"><i className="socicon-github" /></a><a className="social-btn sb-style-1 sb-stackoverflow" href="#"><i className="socicon-stackoverflow" /></a><a className="social-btn sb-style-1 sb-skype" href="#"><i className="socicon-skype" /></a></div>
-          </div> */}
+
               </div>
-            </div>
-            {/* Team member*/}
-            <div className="col-xl-3 col-sm-6 mb-30">
+            </div> */}
+
+          {/* <div className="col-xl-3 col-sm-6 mb-30">
               <div className="team-card-style-3 mx-auto">
                 <div className="team-thumb">
                   <img src="assets/albypic.jpeg" alt="Team Member Picture" />
@@ -208,13 +272,11 @@ class About extends Component {
                 >
                   Learn More
                 </Link>
-                {/* <div className="team-social-bar-wrap">
-            <div className="team-social-bar"><a className="social-btn sb-style-1 sb-facebook" href="#"><i className="socicon-facebook" /></a><a className="social-btn sb-style-1 sb-twitter" href="#"><i className="socicon-twitter" /></a><a className="social-btn sb-style-1 sb-google-plus" href="#"><i className="socicon-googleplus" /></a><a className="social-btn sb-style-1 sb-linkedin" href="#"><i className="socicon-linkedin" /></a></div>
-          </div> */}
+
               </div>
             </div>
-            {/* Team member*/}
-            <div className="col-xl-3 col-sm-6 mb-30">
+             */}
+          {/* <div className="col-xl-3 col-sm-6 mb-30">
               <div className="team-card-style-3 mx-auto">
                 <div className="team-thumb">
                   <img src="assets/sabbitt.jpg" alt="Team Member Picture" />
@@ -238,13 +300,11 @@ class About extends Component {
                 >
                   Learn More
                 </Link>
-                {/* <div className="team-social-bar-wrap">
-            <div className="team-social-bar"><a className="social-btn sb-style-1 sb-twitter" href="#"><i className="socicon-twitter" /></a><a className="social-btn sb-style-1 sb-pinterest" href="#"><i className="socicon-pinterest" /></a><a className="social-btn sb-style-1 sb-behance" href="#"><i className="socicon-behance" /></a><a className="social-btn sb-style-1 sb-dribbble" href="#"><i className="socicon-dribbble" /></a></div>
-          </div> */}
+
               </div>
-            </div>
-            {/* Team member*/}
-            <div className="col-xl-3 col-sm-6 mb-30">
+            </div> */}
+
+          {/* <div className="col-xl-3 col-sm-6 mb-30">
               <div className="team-card-style-3 mx-auto">
                 <div className="team-thumb">
                   <img src="assets/isaac.jpg" alt="Team Member Picture" />
@@ -268,12 +328,10 @@ class About extends Component {
                 >
                   Learn More
                 </Link>
-                {/* <div className="team-social-bar-wrap">
-            <div className="team-social-bar"><a className="social-btn sb-style-1 sb-facebook" href="#"><i className="socicon-facebook" /></a><a className="social-btn sb-style-1 sb-twitter" href="#"><i className="socicon-twitter" /></a><a className="social-btn sb-style-1 sb-skype" href="#"><i className="socicon-skype" /></a><a className="social-btn sb-style-1 sb-linkedin" href="#"><i className="socicon-linkedin" /></a></div>
-          </div> */}
+
               </div>
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
         </div>
         {/* Footer*/}
         <Footer />
