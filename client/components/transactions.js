@@ -84,31 +84,31 @@ class Transactions extends Component {
                 />
                 <TransCard
                   image="OrlandPhoto.jpg"
-                  location="Medical"
+                  location="Medical Office Building"
                   company="Life Company"
                   price="$2,200,000"
                 />
                 <TransCard
                   image="Oneidaphoto.jpg"
-                  location="Oneida Cold Storage"
+                  location="Cold Storage Distribution"
                   company="Life Company"
                   price="$19,500,000"
                 />
                 <TransCard
                   image="MSUPhoto2014v2.jpg"
-                  location="Student Housing"
+                  location="Dedicated Student Housing"
                   company="Agency Lender"
                   price="$19,000,000"
                 />
                 <TransCard
                   image="kindercare.jpg"
-                  location="Child Care Facility"
+                  location="Specialty Retail"
                   company="Life Company"
                   price="$3,800,000"
                 />
                 <TransCard
                   image="marketsquarephoto.jpg"
-                  location="Market Square"
+                  location="Upscale Specialty Retail"
                   company="CMBS"
                   price="$29,000,000"
                 />
@@ -120,13 +120,13 @@ class Transactions extends Component {
                 />
                 <TransCard
                   image="newprop6.jpg"
-                  location="Superior Office HQ"
+                  location="Corporate Headquarters"
                   company="Life Company"
                   price="$20,000,000+"
                 />
                 <TransCard
                   image="LUMCprop.jpg"
-                  location="Medical Office"
+                  location="Condo Medical Office Building"
                   company="Life Company"
                   price="$1,300,000"
                 />
@@ -138,40 +138,35 @@ class Transactions extends Component {
                 />
                 <TransCard
                   image="UofIphotov2.jpg"
-                  location="Student Housing"
-                  company="Bank"
+                  location="Dedicated Student Housing"
+                  company="Bank and Agency"
                   price="$5,500,000"
                 />
                   <TransCard
                 image="newprop1.jpg"
-                location="Property"
-                company="Bank"
-                price="$5,500,000"
+                location="Dedicated Student Housing"
+                company="Bank and Agency"
+                price="$10,500,000"
               />
 
                 <TransCard
                 image="newprop2.jpg"
-                location="Property"
-                company="Bank"
-                price="$5,500,000"
+                location="Freezer Distribution Building"
+                company="Combo Construction Perm"
+                price="$18,000,000"
               />
               <TransCard
                 image="newprop3.jpg"
-                location="Property"
-                company="Bank"
-                price="$5,500,000"
+                location="Dedicated Student Housing"
+                company="Bank and Agency"
+                price="$7,300,000"
               />
+
               <TransCard
-                image="newprop4.jpg"
-                location="Property"
-                company="Bank"
-                price="$5,500,000"
-              />
-              <TransCard
-                image="newprop5.jpg"
-                location="Property"
-                company="Bank"
-                price="$5,500,000"
+                image="pointe5oaks.jpg"
+                location="Market Apartments"
+                company="Bank and Agency"
+                price="$16,500,000"
               />
                 <TransCard
                 image="flexindus.jpg"
@@ -221,12 +216,12 @@ class Transactions extends Component {
                 company="Agency Lender"
                 price="$7,200,000"
               />
-                <TransCard
+                {/* <TransCard
                 image="newprop5.jpg"
                 location="Retail Strip Center"
                 company="Term Loan"
                 price="$4,900,000"
-              />
+              /> */}
 
 
                 {/* <img src="/assets/Walgreens.jpg" alt="Carousel Image" />

@@ -42,7 +42,13 @@ const Navbar = ({handleClick, isLoggedIn}) => (
           {/* Blog*/}
           <div className="card">
             <div className="card-header">
-              <Link className="mobile-menu-link" to="/about">
+              <Link
+                className="mobile-menu-link"
+                to="/about"
+                onClick={() => {
+                  this.setTimeout(50, window.location.reload())
+                }}
+              >
                 About Us
               </Link>
             </div>
@@ -78,7 +84,7 @@ const Navbar = ({handleClick, isLoggedIn}) => (
                 className="mobile-menu-link"
                 to="/transactions"
                 onClick={() => {
-                  this.setTimeout(500, window.location.reload())
+                  this.setTimeout(50, window.location.reload())
                 }}
               >
                 Transactions
@@ -121,7 +127,13 @@ const Navbar = ({handleClick, isLoggedIn}) => (
 
               {/* Blog*/}
               <li className="nav-item mega-dropdown-toggle">
-                <Link className="nav-link" to="/about">
+                <Link
+                  className="nav-link"
+                  to="/about"
+                  onClick={() => {
+                    this.setTimeout(50, window.location.reload())
+                  }}
+                >
                   About Us
                 </Link>
               </li>

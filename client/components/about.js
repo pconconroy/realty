@@ -1,12 +1,20 @@
-import React, {Component} from 'react'
+import React, {Component, Suspense, lazy} from 'react'
 import Navbar from './navbar'
 import Footer from './footer'
 import {Link} from 'react-router-dom'
-
+import LenderCarousel from './lendercarousel'
+import {Helmet} from 'react-helmet'
+// const LenderCarousel = lazy(() => import('./lendercarousel').default)
 class About extends Component {
   render() {
     return (
       <div>
+        {/* <Helmet>
+          <script src="/CreateX/dist/js/theme.min.js" />
+          <script src="/CreateX/dist/js/card.min.js" />
+          <script src="/CreateX/dist/js/modernizr.min.js" />
+          <script src="/CreateX/dist/js/vendor.min.js" />
+        </Helmet> */}
         <Navbar />
         {/* Page Title*/}
         <div
@@ -136,81 +144,16 @@ class About extends Component {
                 profession. It is a member in good standing with the Mortgage
                 Bankers of America, State of Illinois - Department of
                 Professional Regulation, and the Urban Land Institute. Mr. Siff
-                has arranged, serviced, sold or purchased over two billion
+                has arranged, serviced, sold or purchased over three billion
                 dollars of real estate. He has been employed in the mortgage
-                banking industry since 1979 and held a myriad of staff and line
+                banking industry since 1993 and held a myriad of staff and line
                 positions with several of the oldest and revered firms in
                 Chicago. Albert Van Alyea, MD, has been in the real estate
                 business since ----. He Joined PRA in 2014
               </p>
             </div>
           </div>
-          <section className="container pb-5 my-sm-2">
-            {/* <h2 className="h3 block-title text-center mt-sm-3 mb-5">
-              Institutional Correspondent Lenders
-            </h2> */}
-            <div className="text-center pt-5 pb-4 mt-3">
-              <h3 className="h4 mb-1">Institutional Correspondent Lenders</h3>
-              <p className="text-muted">
-                Performance based on long term mutual respect.
-              </p>
-            </div>
-            <div className="row">
-              <div
-                className="owl-carousel"
-                id="carousel"
-                data-owl-carousel="{ &quot;nav&quot;: true, &quot;dots&quot;: true, &quot;loop&quot;: true, &quot;margin&quot;: 30, &quot;autoplay&quot;: true, &quot;autoplayTimeout&quot;: 4000, &quot;responsive&quot;: {&quot;0&quot;:{&quot;items&quot;:1},&quot;630&quot;:{&quot;items&quot;:2},&quot;991&quot;:{&quot;items&quot;:3},&quot;1200&quot;:{&quot;items&quot;:4}} }"
-              >
-                <img src="/assets/coram.png" alt="Carousel Image" />
-                <img
-                  src="/assets/aegon.png"
-                  id="centered-caro"
-                  alt="Carousel Image"
-                />
-                <img
-                  src="/assets/credits.png"
-                  id="centered-caro"
-                  alt="Carousel Image"
-                />
-                <img src="/assets/fargo.png" alt="Carousel Image" />
-                <img src="/assets/pnc.jpg" alt="Carousel Image" />
-                <img
-                  src="/assets/bankbnorth.jpg"
-                  alt="Carousel Image"
-                  id="centered-caro"
-                />
-                <img
-                  src="/assets/colum.png"
-                  alt="Carousel Image"
-                  id="centered-caro"
-                />
-                <img
-                  src="/assets/farmfamily.jpg"
-                  alt="Carousel Image"
-                  id="centered-caro"
-                />
-                <img
-                  src="/assets/walker.png"
-                  alt="Carousel Image"
-                  id="centered-caro"
-                />
-                 <img
-                  src="/assets/westernandsouthern.png"
-                  alt="Carousel Image"
-                  id="centered-caro"
-                />
-              </div>
 
-              {/* <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/01.png" width={165} alt="Partner" /></a></div>
-      <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/02.png" width={165} alt="Partner" /></a></div>
-      <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/03.png" width={165} alt="Partner" /></a></div>
-      <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/04.png" width={165} alt="Partner" /></a></div>
-      <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/07.png" width={165} alt="Partner" /></a></div>
-      <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/05.png" width={165} alt="Partner" /></a></div>
-      <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/08.png" width={165} alt="Partner" /></a></div>
-      <div className="col-6 col-md-3"><a className="d-block py-2 mb-30 gray-to-color" href="#"><img className="d-block mx-auto opacity-75" src="img/partners/09.png" width={165} alt="Partner" /></a></div> */}
-            </div>
-          </section>
           {/* Team*/}
           {/* <div className="text-center pt-5 pb-4 mt-3">
             <h3 className="h4 mb-1">Our Team</h3>
@@ -332,6 +275,8 @@ class About extends Component {
               </div>
             </div> */}
           {/* </div> */}
+
+          <LenderCarousel />
         </div>
         {/* Footer*/}
         <Footer />

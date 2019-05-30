@@ -13,7 +13,7 @@ class Footer extends Component {
           >
             <h2 className="block-title text-white mt-5 mb-4">
               Why Prairie Realty Advisors?<small className="text-white">
-                We are a leading company with over 25 years of
+                We are a leading company with over 25 years of Experience
               </small>
             </h2>
             <Link className="btn btn-style-4 btn-light mb-5" to="/inquiries">
@@ -33,20 +33,27 @@ class Footer extends Component {
                   <img src="assets/pralogonew.png" alt="CreateX" />
                 </a>
                 <p className="text-sm text-white opacity-50" id="small-disc">
-                This site is maintained by Prairie Realty Advisors, Inc., Information@prairierealtyadvisors.com
-
-While Prairie Realty Advisors, Inc. has worked to ensure that all data contained herein is accurate and all information has been provided from sources we believe are reliable, Prairie Realty Advisors, Inc. makes no representations nor
-
-warranties and assumes no liability for any errors, omissions, or inaccuracies in the information provided either expressed or implied as to the accuracy of the information. provided herein
-
-© ~ 2019, Prairie Realty Advisors, Inc. • 650 N Dearborn, Suite 500 • Chicago • IL  60654 • (312) 220-0051
+                  This site is maintained by Prairie Realty Advisors, Inc.,
+                  Information@prairierealtyadvisors.com While Prairie Realty
+                  Advisors, Inc. has worked to ensure that all data contained
+                  herein is accurate and all information has been provided from
+                  sources we believe are reliable, Prairie Realty Advisors, Inc.
+                  makes no representations nor warranties and assumes no
+                  liability for any errors, omissions, or inaccuracies in the
+                  information provided either expressed or implied as to the
+                  accuracy of the information. provided herein © ~ 2019, Prairie
+                  Realty Advisors, Inc. • 650 N Dearborn, Suite 500 • Chicago •
+                  IL 60654 • (312) 220-0051
                 </p>
                 <p className="text-sm text-white opacity-50" />
                 <ul className="list-icon text-sm pb-2">
                   <li>
                     <i className="fe-icon-map-pin text-white opacity-60" />
-                    <a className="navi-link text-white" href="https://goo.gl/maps/aep1cCdZwXEEV7dp6">
-                      &nbsp;650 N Dearborn, Chicago, IL, USA
+                    <a
+                      className="navi-link text-white"
+                      href="https://goo.gl/maps/aep1cCdZwXEEV7dp6"
+                    >
+                      &nbsp;650 N Dearborn St, Suite 500, Chicago, IL, 60657
                     </a>
                   </li>
                   <li>
@@ -109,7 +116,14 @@ warranties and assumes no liability for any errors, omissions, or inaccuracies i
                           <Link to="/internship">Internship</Link>
                         </li>
                         <li>
-                          <Link to="/about">About Us</Link>
+                          <Link
+                            to="/about"
+                            onClick={() => {
+                              this.setTimeout(50, window.location.reload())
+                            }}
+                          >
+                            About Us
+                          </Link>
                         </li>
                         <li>
                           <Link to="/personnel">Personnel</Link>

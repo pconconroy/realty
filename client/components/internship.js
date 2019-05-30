@@ -56,7 +56,7 @@ class Internship extends Component {
                 <div className="wizard-body pt-3">
                   <h2 className="h4 text-center">Internship</h2>
                   <p className="text-muted text-center">
-                    We will get back to you as soon as possible
+                    Investing in the future with PRA
                   </p>
                   <form
                     className="needs-validation"

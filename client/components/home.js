@@ -4,6 +4,7 @@ import TransCard from './trans-card'
 import {Helmet} from 'react-helmet'
 import Footer from './footer'
 import {Link} from 'react-router-dom'
+import LenderCarousel from './lendercarousel'
 class Home extends Component {
   // componentDidMount() {
   //   postscribe('#mydiv', '<script src="/CreateX/dist/js/theme.min.js"></script>')
@@ -20,7 +21,6 @@ class Home extends Component {
           <script src="/CreateX/dist/js/modernizr.min.js" />
           <script src="/CreateX/dist/js/vendor.min.js" />
         </Helmet>
-
         <Navbar />
         {/* Page Content*/}
         {/* Hero Slider*/}
@@ -53,7 +53,13 @@ class Home extends Component {
                         Over $3.0 billion in commercial financing since
                         September 1992.
                       </p>
-                      <Link className="btn btn-style-4 btn-light" to="/about">
+                      <Link
+                        className="btn btn-style-4 btn-light"
+                        to="/about"
+                        onClick={() => {
+                          this.setTimeout(50, window.location.reload())
+                        }}
+                      >
                         Learn More
                       </Link>
                     </div>
@@ -79,13 +85,20 @@ class Home extends Component {
                   >
                     <div className="d-table-cell align-middle">
                       <h2 className="display-4 text-white">
-                        <em className="font-weight-light">Prairie Realty Advisors</em>
-
+                        <em className="font-weight-light">
+                          Prairie Realty Advisors
+                        </em>
                       </h2>
                       <p className="text-xl text-white opacity-75 pb-4">
                         Servicing Portfolio of over $300 million.
                       </p>
-                      <Link className="btn btn-style-4 btn-light" to="/about">
+                      <Link
+                        className="btn btn-style-4 btn-light"
+                        to="/about"
+                        onClick={() => {
+                          this.setTimeout(50, window.location.reload())
+                        }}
+                      >
                         Learn More
                       </Link>
                     </div>
@@ -343,7 +356,6 @@ class Home extends Component {
           </div>
         </section> */}
         {/* Contact Us CTA*/}
-
         {/* Footer*/}
         <Footer />
         {/* Back To Top Button*/}
