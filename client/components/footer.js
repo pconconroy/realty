@@ -122,7 +122,7 @@ class Footer extends Component {
                               this.setTimeout(50, window.location.reload())
                             }}
                           >
-                            About Us
+                            Why Us
                           </Link>
                         </li>
                         <li>
@@ -135,11 +135,11 @@ class Footer extends Component {
                     <div className="widget widget-categories widget-light-skin">
                       <ul>
                         <li>
-                          <Link to="/commercial">Commercial</Link>
+                          <Link to="/commercial">Expertise and Inquiries</Link>
                         </li>
-                        <li>
+                        {/* <li>
                           <Link to="/inquiries">Inquiries</Link>
-                        </li>
+                        </li> */}
                         <li>
                           <Link
                             to="/transactions"

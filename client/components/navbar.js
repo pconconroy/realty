@@ -49,7 +49,7 @@ const Navbar = ({handleClick, isLoggedIn}) => (
                   this.setTimeout(50, window.location.reload())
                 }}
               >
-                About Us
+                Why Us
               </Link>
             </div>
           </div>
@@ -57,7 +57,7 @@ const Navbar = ({handleClick, isLoggedIn}) => (
           <div className="card">
             <div className="card-header">
               <Link className="mobile-menu-link" to="/personnel">
-                Personnel
+                Team
               </Link>
             </div>
           </div>
@@ -65,18 +65,18 @@ const Navbar = ({handleClick, isLoggedIn}) => (
           <div className="card">
             <div className="card-header">
               <Link className="mobile-menu-link" to="/commercial">
-                Commercial
+                Expertise and Inquiries
               </Link>
             </div>
           </div>
           {/* Pages*/}
-          <div className="card">
+          {/* <div className="card">
             <div className="card-header">
               <Link className="mobile-menu-link" to="/inquiries">
                 Inquiries
               </Link>
             </div>
-          </div>
+          </div> */}
           {/* Components*/}
           <div className="card">
             <div className="card-header">
@@ -134,27 +134,27 @@ const Navbar = ({handleClick, isLoggedIn}) => (
                     this.setTimeout(50, window.location.reload())
                   }}
                 >
-                  About Us
+                  Why Us
                 </Link>
               </li>
               {/* Shop*/}
               <li className="nav-item mega-dropdown-toggle">
                 <Link className="nav-link" to="personnel">
-                  Personnel
+                  Team
                 </Link>
               </li>
               {/* Account*/}
               <li className="nav-item dropdown-toggle">
                 <Link className="nav-link" to="/commercial">
-                  Commercial
+                  Expertise and Inquiries
                 </Link>
               </li>
               {/* Pages*/}
-              <li className="nav-item dropdown-toggle">
+              {/* <li className="nav-item dropdown-toggle">
                 <Link className="nav-link" to="/inquiries">
                   Inquiries
                 </Link>
-              </li>
+              </li> */}
               {/* Components*/}
               <li className="nav-item">
                 <Link

@@ -124,7 +124,21 @@ class About extends Component {
             <div className="d-md-table-cell align-middle pl-md-4 pl-lg-5 text-center text-md-left">
               <h3 className="h4">Who We Are</h3>
               <p className="text-muted">
-                As of the second quarter of 2017, the firm has four employees.
+                As of the 2nd Q of 2019, the firm consists of a team of four.
+                There are 15 additional former employees who we recognize for
+                their contributions in helping in PRA’s success over the past 26
+                years.
+                <br />
+                <br />
+                PRA current team of professionals have over 100 years of
+                combined real estate industry experience. PRA has always been a
+                member of the Mortgage Bankers Association (“MBA”). It has held
+                licenses from the State of Illinois and Wisconsin and supported
+                ULI for many years. Loan production and corporate governance is
+                John’s job. Loan production and lender cultivation are Alby’s
+                focus. Jon and Steve provide overview and back office
+                organization and stability.
+                {/* As of the second quarter of 2017, the firm has four employees.
                 Loan production and firm administration are the responsibility
                 of John F. Siff, President. Mr. Alby Van Alyea, Managing
                 Director, is primarily responsible for origination of loan
@@ -149,7 +163,7 @@ class About extends Component {
                 banking industry since 1993 and held a myriad of staff and line
                 positions with several of the oldest and revered firms in
                 Chicago. Albert Van Alyea, MD, has been in the real estate
-                business since ----. He Joined PRA in 2014
+                business since ----. He Joined PRA in 2014 */}
               </p>
             </div>
           </div>

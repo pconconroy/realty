@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import Navbar from './navbar'
 import Footer from './footer'
 import {Link} from 'react-router-dom'
+import Inquiries from './inquiries'
 
 class Commercial extends Component {
   render() {
@@ -24,7 +25,7 @@ class Commercial extends Component {
         </ol> */}
             </nav>
             <h1 className="page-title-heading" style={{color: 'white'}}>
-              Commercial
+              Expertise and Inquiries
             </h1>
           </div>
         </div>
@@ -34,83 +35,79 @@ class Commercial extends Component {
           <section className="container my-5">
             <div className="bg-secondary px-3 py-5">
               <div className="row justify-content-center">
-                <div className="col-xl-8 col-lg-10 pt-3 text-center">
-                  <span className="d-block text-lg mb-2">What We Do</span>
-                  <h3 className="h4 block-title mb-3">
-                    Loan Production{' '}
-                    <span className="font-weight-light text-muted">/</span>{' '}
-                    Construction Lending{' '}
-                    <span className="font-weight-light text-muted">/</span> Loan
-                    Servicing
-                  </h3>
-                  <p className="text-muted">
-                    Through our correspondent and other lending relationships,
-                    Prairie Realty Advisors, Inc. can provide acquisition,
-                    construction, permanent, and bridge financing on a wide
-                    range of loans and services on most types of income
-                    producing properties such as: Office Buildings, Shopping
-                    Centers and Retail Properties, Industrial Buildings,
-                    Multi-Family Properties,Single Tenant Properties, Medical
-                    Office Buildings, Credit Leased Facilities, Health Care
-                    Facilities, Business Parks, Mobile Home Parks, Land Sale
-                    Leasebacks, Institutional Sales, IRB and Tax Exempt
-                    Financing, Mezzanine/Bridge Loans, Specialty Properties ,
-                    Third-Party and Institutional Equity,Seed & Venture RE CapX,
-                    Senior Living (Independent and Assisted), Historic Tax
-                    Credit Financing, Student Housing, Discounted Note Funding,
-                    Development Advisory
-                  </p>
+                <div
+                  className="col-xl-8 col-lg-10 pt-3 text-center"
+                  id="no-padd"
+                >
+                  <h2 id="font-boi">
+                    Through our correspondent and other long-term lending
+                    relationships, Prairie Realty Advisors, Inc. can provide
+                    acquisition, construction, permanent, and bridge financing
+                    on a wide range of loans and services on most types of
+                    income producing properties including:
+                  </h2>
 
                   {/* <a className="video-player-button my-3 mr-3" href="https://player.vimeo.com/video/56362909?color=ac32e4&title=0&byline=0&portrait=0" data-fancybox data-width={1000} data-height={563}><i className="fe-icon-play" /></a><span className="video-player-label text-muted">Corporate video</span> */}
                 </div>
               </div>
             </div>
           </section>
-          <div className="comparison-table">
-            <h1>Loan Terms We Excel At</h1>
+          <div className="comparison-table" id="more-padding">
             <table className="table table-bordered">
               <thead style={{textAlign: 'center', alignContent: 'center'}} />
+
               <tbody>
                 <tr>
-                  <th>Loan Amount</th>
-                  <td>$2,000,000+</td>
+                  <td>Office Buildings</td>
+                  <td>Single Tenant Properties</td>
+                  <td>Mobile Home Parks</td>
                 </tr>
                 <tr>
-                  <th>Loan Fees</th>
-                  <td>1% of Loan Amount</td>
+                  <td>Shopping Centers</td>
+                  <td>Medical Office Buildings</td>
+                  <td>Land Sale Leasebacks</td>
                 </tr>
                 <tr>
-                  <th>Interest Rates</th>
-                  <td>
-                    Typically fixed at 60-350 basis points over the
-                    corresponding US Treasury Bond Rates or floating over Libor
-                  </td>
+                  <td>Retail Properties</td>
+                  <td>Credit Leased Facilities</td>
+                  <td>Institutional Sales</td>
                 </tr>
                 <tr>
-                  <th>Term</th>
-                  <td>3-25 years</td>
+                  <td>Industrial Buildings</td>
+                  <td>Health Care Facilities</td>
+                  <td>IRB and Tax Exempt Financing</td>
                 </tr>
                 <tr>
-                  <th>Amortization</th>
-                  <td>10 – 30 years</td>
+                  <td>Multi-Family Properties</td>
+                  <td>Business Parks</td>
+                  <td>Third-Party and Institutional Equity</td>
                 </tr>
                 <tr>
-                  <th>Debt Coverage</th>
-                  <td>1.10 to 1.30</td>
+                  <td>Mezzanine/Bridge Loans</td>
+                  <td>Seed and Venture</td>
+                  <td>Historic Tax Credit Financing</td>
                 </tr>
                 <tr>
-                  <th>Max Loan-to-Value</th>
-                  <td>
-                    Apartments Up to 85% <br /> Office Up to 80% <br />{' '}
-                    Industrial Up to 80% <br />
-                    Retail Up to 80% <br />Credit Leases Up to 100%
-                  </td>
+                  <td>Institutional Sales</td>
+                  <td>RE Cap X</td>
+                  <td>Student Housing</td>
+                </tr>
+                <tr>
+                  <td>Specialty Properties</td>
+                  <td>Discounted Note Funding</td>
+                  <td>Senior Living (Independent/Assisted)</td>
                 </tr>
               </tbody>
             </table>
+            <div id="center-com">
+              <h2 id="font-boi">
+                Development Advisory services are provided through a subsidiary
+                company
+              </h2>
+            </div>
           </div>
-          <h1>What We Need From You</h1>
-          <ul className="list-group">
+          {/* <h1>What We Need From You</h1> */}
+          {/* <ul className="list-group">
             <li className="list-group-item">Current Rent Roll</li>
             <li className="list-group-item">Borrower Information</li>
             <li className="list-group-item">
@@ -126,10 +123,10 @@ class Commercial extends Component {
               Any and all professional reports including Appraisal, Phase 1
               Environmental Assessment and Title Reports
             </li>
-          </ul>
+          </ul> */}
           <br />
           <br />
-          <div id="center-com">
+          {/* <div id="center-com">
             <Link
               to="/inquiries"
               className="btn btn-style-4 btn-gradient mb-3"
@@ -137,7 +134,8 @@ class Commercial extends Component {
             >
               Make an Inquiry
             </Link>
-          </div>
+          </div> */}
+          <Inquiries />
         </div>
         {/* Footer*/}
         <Footer />

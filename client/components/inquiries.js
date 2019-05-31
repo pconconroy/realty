@@ -27,27 +27,22 @@ class Inquiries extends Component {
   render() {
     return (
       <div>
-        <Navbar />
+        {/* <Navbar /> */}
         {/* Page Title*/}
-        <div
+        {/* <div
           className="page-title d-flex"
           aria-label="Page title"
           style={{backgroundImage: 'url(assets/tetons5.jpg)'}}
         >
           <div className="container text-left align-self-center">
             <nav aria-label="breadcrumb">
-              {/* <ol className="breadcrumb">
-          <li className="breadcrumb-item"><a href="index.html">Home</a>
-          </li>
-          <li className="breadcrumb-item"><a href="#">Pages</a>
-          </li>
-        </ol> */}
+
             </nav>
             <h1 className="page-title-heading" style={{color: 'white'}}>
               Inquiries
             </h1>
           </div>
-        </div>
+        </div> */}
         {/* Page Content*/}
         <div className="container pb-5 mb-3">
           <div className="inquiries">
@@ -165,7 +160,7 @@ class Inquiries extends Component {
           </div>
         </div>
         {/* Footer*/}
-        <Footer />
+        {/* <Footer /> */}
         {/* Back To Top Button*/}
         <a className="scroll-to-top-btn" href="#">
           <i className="fe-icon-chevron-up" />
