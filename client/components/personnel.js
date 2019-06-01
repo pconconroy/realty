@@ -24,7 +24,7 @@ class Personnel extends Component {
         </ol> */}
             </nav>
             <h1 className="page-title-heading" style={{color: 'white'}}>
-              Personnel
+              Team
             </h1>
           </div>
         </div>
@@ -60,21 +60,18 @@ class Personnel extends Component {
                 </a>
                 <br />
                 <p>
-                  John founded of PRA in 1993 and is now President and Chairman.
+                  John founded of PRA in 1993 and is President and Chairman.
                   With 40 years of direct real estate finance experience, he
                   oversees production, servicing, investor relations and works
                   to promote PRA as a fiducial intermediary of institutional
                   quality real estate. He is a graduate of Hobart College,
                   35-year member of the MBA, former director of Chicago
-                  Landmarks Preservation Council, an independent director of
-                  Northside Community Bank and Wolverine Mutual Insurance
-                  Company and Manager of the Prairie Fund, Criterion 3 LLC and
-                  Criterion 3 Lifestyle LLC. He is married with two grown
-                  children, together the family actively supports Chicago based
-                  organizations including Shirley Ryan AbilityLab, Daniel Murphy
-                  Foundation, The Lakeview Pantry and Lincoln Park Zoo. John is
-                  an avid skier, golfer and outdoorsman. He is a lifelong
-                  Blackhawks fan.
+                  Landmarks Preservation Council, and a long supporter of the
+                  ULI. He is married with two grown children. Together the
+                  family actively supports many Chicago based organizations
+                  which provides special community services for all Chicagoans.
+                  John is an avid skier, golfer and outdoorsman. He is a
+                  lifelong Blackhawks fan.
                 </p>
                 {/* <div className="team-social-bar-wrap">
             <div className="team-social-bar"><a className="social-btn sb-style-1 sb-twitter" href="#"><i className="socicon-twitter" /></a><a className="social-btn sb-style-1 sb-github" href="#"><i className="socicon-github" /></a><a className="social-btn sb-style-1 sb-stackoverflow" href="#"><i className="socicon-stackoverflow" /></a><a className="social-btn sb-style-1 sb-skype" href="#"><i className="socicon-skype" /></a></div>
@@ -137,10 +134,11 @@ class Personnel extends Component {
                 </a>
                 <br />
                 <p>
-                  Jon joined PRA in 2017. An accountant and former CPA, Jon
-                  oversees day to day company activities involving operations
-                  and servicing. Jon is the father of three sons. Jon attended U
-                  of I and is an avid Cubs fan and a fitness and cycling
+                  Jon joined PRA in 2017. An accountant and CPA, Jon has over 30
+                  years of experience in the real estate industry. He oversees
+                  day to day financial activities involving operations and
+                  servicing. Jon is the father of three sons. Jon attended U of
+                  I and is an avid Cubs fan and a fitness and cycling
                   enthusiast.
                 </p>
                 {/* <div className="team-social-bar-wrap">
@@ -167,14 +165,16 @@ class Personnel extends Component {
                 </a>
                 <br />
                 <p>
-                  Steve is our General Counsel. He has general oversight of all
-                  activities and provides guidance and strategy to all phases of
-                  the business. Steve is a graduate of U of I and Cornell
-                  University Law School. He is married and the father of two
-                  grown kids. Outside of work, Steve is a lifelong Cubs fan as
-                  well as a former employee. Steve is an active cyclist as well
-                  as a music aficionado, where he travels worldwide following
-                  his music passion.
+                  Steve is our General Counsel and provided legal services to
+                  the firm for over 9 years. His 40 year legal career has been
+                  focused on transactional investment grade real estate. He has
+                  general oversight of all activities and provides guidance and
+                  strategy to all phases of the business. Steve is a graduate of
+                  U of I and Cornell University Law School. He is married and
+                  the father of two grown kids. Outside of work, Steve is a
+                  lifelong Cubs fan as well as a former employee. Steve is an
+                  active cyclist as well as a music aficionado, where he travels
+                  worldwide following his music passion.
                 </p>
                 {/* <div className="team-social-bar-wrap">
             <div className="team-social-bar"><a className="social-btn sb-style-1 sb-facebook" href="#"><i className="socicon-facebook" /></a><a className="social-btn sb-style-1 sb-twitter" href="#"><i className="socicon-twitter" /></a><a className="social-btn sb-style-1 sb-skype" href="#"><i className="socicon-skype" /></a><a className="social-btn sb-style-1 sb-linkedin" href="#"><i className="socicon-linkedin" /></a></div>

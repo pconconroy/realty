@@ -32,7 +32,7 @@ class About extends Component {
         </ol> */}
             </nav>
             <h1 className="page-title-heading" style={{color: 'white'}}>
-              About Us
+              Why Us
             </h1>
           </div>
         </div>
@@ -117,7 +117,7 @@ class About extends Component {
             >
               <img
                 className="d-block w-100"
-                src="assets/whoweserve.svg"
+                src="assets/bandlogo.png"
                 alt="Outlet Stores"
               />
             </div>
