@@ -172,16 +172,11 @@ nav a {
   display: block !important;
 } */
 #fill-image {
-  background-size: contain;
+  background-size: cover;
   width: 100%;
 }
 #new-gradient {
-  background: linear-gradient(
-    to right,
-    #ef5b5b 0%,
-    white 40%,
-    lightblue 90%
-  ) !important;
+  background: linear-gradient(to right, #ef5b5b 0%, lightblue 90%) !important;
 }
 #int-rates {
   position: fixed;

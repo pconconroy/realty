@@ -9,14 +9,20 @@ class Footer extends Component {
           <div
             className="container position-relative bg-no-repeat bg-center py-5 text-center"
             id="fill-image"
-            style={{backgroundImage: 'url(assets/chiskyline.jpg)'}}
+            style={{backgroundImage: 'url(assets/chiskyline-min.jpg)'}}
           >
             <h2 className="block-title text-white mt-5 mb-4">
               Why Prairie Realty Advisors?<small className="text-white">
                 We are a leading company with over 25 years of Experience
               </small>
             </h2>
-            <Link className="btn btn-style-4 btn-light mb-5" to="/inquiries">
+            <Link
+              className="btn btn-style-4 btn-light mb-5"
+              to="/inquiries"
+              onClick={() => {
+                this.setTimeout(50, window.location.reload())
+              }}
+            >
               Contact Us
             </Link>
           </div>
@@ -30,7 +36,7 @@ class Footer extends Component {
                   id="wider-a"
                   href="index.html"
                 >
-                  <img src="assets/pralogonew.png" alt="CreateX" />
+                  <img src="assets/pralogonew.png" alt="photo" />
                 </a>
                 <p className="text-sm text-white opacity-50" id="small-disc">
                   This site is maintained by Prairie Realty Advisors, Inc.,
@@ -108,12 +114,25 @@ class Footer extends Component {
                     <div className="widget widget-categories widget-light-skin">
                       <ul>
                         <li>
-                          <Link to="/home" id="some-margin">
+                          <Link
+                            to="/home"
+                            id="some-margin"
+                            onClick={() => {
+                              this.setTimeout(50, window.location.reload())
+                            }}
+                          >
                             Home
                           </Link>
                         </li>
                         <li>
-                          <Link to="/internship">Internship</Link>
+                          <Link
+                            to="/internship"
+                            onClick={() => {
+                              this.setTimeout(50, window.location.reload())
+                            }}
+                          >
+                            Internship
+                          </Link>
                         </li>
                         <li>
                           <Link
@@ -126,7 +145,14 @@ class Footer extends Component {
                           </Link>
                         </li>
                         <li>
-                          <Link to="/personnel">Personnel</Link>
+                          <Link
+                            to="/personnel"
+                            onClick={() => {
+                              this.setTimeout(50, window.location.reload())
+                            }}
+                          >
+                            Personnel
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -135,7 +161,14 @@ class Footer extends Component {
                     <div className="widget widget-categories widget-light-skin">
                       <ul>
                         <li>
-                          <Link to="/commercial">Expertise and Inquiries</Link>
+                          <Link
+                            to="/commercial"
+                            onClick={() => {
+                              this.setTimeout(50, window.location.reload())
+                            }}
+                          >
+                            Expertise and Inquiries
+                          </Link>
                         </li>
                         {/* <li>
                           <Link to="/inquiries">Inquiries</Link>

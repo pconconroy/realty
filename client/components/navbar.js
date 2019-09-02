@@ -26,7 +26,13 @@ const Navbar = ({handleClick, isLoggedIn}) => (
           {/* Home*/}
           <div className="card">
             <div className="card-header">
-              <Link className="mobile-menu-link active" to="/home">
+              <Link
+                className="mobile-menu-link"
+                to="/home"
+                onClick={() => {
+                  this.setTimeout(50, window.location.reload())
+                }}
+              >
                 Home
               </Link>
             </div>
@@ -34,7 +40,13 @@ const Navbar = ({handleClick, isLoggedIn}) => (
           {/* Portfolio*/}
           <div className="card">
             <div className="card-header">
-              <Link className="mobile-menu-link" to="/internship">
+              <Link
+                className="mobile-menu-link"
+                to="/internship"
+                onClick={() => {
+                  this.setTimeout(50, window.location.reload())
+                }}
+              >
                 Internship
               </Link>
             </div>
@@ -56,7 +68,13 @@ const Navbar = ({handleClick, isLoggedIn}) => (
           {/* Shop*/}
           <div className="card">
             <div className="card-header">
-              <Link className="mobile-menu-link" to="/personnel">
+              <Link
+                className="mobile-menu-link"
+                to="/personnel"
+                onClick={() => {
+                  this.setTimeout(50, window.location.reload())
+                }}
+              >
                 Team
               </Link>
             </div>
@@ -64,7 +82,13 @@ const Navbar = ({handleClick, isLoggedIn}) => (
           {/* Account*/}
           <div className="card">
             <div className="card-header">
-              <Link className="mobile-menu-link" to="/commercial">
+              <Link
+                className="mobile-menu-link"
+                to="/commercial"
+                onClick={() => {
+                  this.setTimeout(50, window.location.reload())
+                }}
+              >
                 Expertise and Inquiries
               </Link>
             </div>
@@ -99,7 +123,7 @@ const Navbar = ({handleClick, isLoggedIn}) => (
       <div className="container-fluid">
         <div className="d-table-cell align-middle pr-md-3" id="wider-logo">
           <a className="navbar-brand mr-1" id="wider-a" href="index.html">
-            <img src="assets/pralogonew.png" alt="CreateX" />
+            <img src="assets/pralogonew.png" alt="photo" />
           </a>
         </div>
         <div className="d-table-cell w-100 align-middle pl-md-3">
@@ -118,8 +142,14 @@ const Navbar = ({handleClick, isLoggedIn}) => (
             {/* Main Menu*/}
             <ul className="navbar-nav d-none d-lg-block">
               {/* Home*/}
-              <li className="nav-item mega-dropdown-toggle active">
-                <Link className="nav-link" to="/home">
+              <li className="nav-item mega-dropdown-toggle">
+                <Link
+                  className="nav-link"
+                  to="/home"
+                  onClick={() => {
+                    this.setTimeout(50, window.location.reload())
+                  }}
+                >
                   Home
                 </Link>
               </li>
@@ -139,13 +169,25 @@ const Navbar = ({handleClick, isLoggedIn}) => (
               </li>
               {/* Shop*/}
               <li className="nav-item mega-dropdown-toggle">
-                <Link className="nav-link" to="personnel">
+                <Link
+                  className="nav-link"
+                  to="personnel"
+                  onClick={() => {
+                    this.setTimeout(50, window.location.reload())
+                  }}
+                >
                   Team
                 </Link>
               </li>
               {/* Account*/}
               <li className="nav-item dropdown-toggle">
-                <Link className="nav-link" to="/commercial">
+                <Link
+                  className="nav-link"
+                  to="/commercial"
+                  onClick={() => {
+                    this.setTimeout(50, window.location.reload())
+                  }}
+                >
                   Expertise and Inquiries
                 </Link>
               </li>
@@ -168,7 +210,13 @@ const Navbar = ({handleClick, isLoggedIn}) => (
                 </Link>
               </li>
               <li className="nav-item dropdown-toggle">
-                <Link className="nav-link" to="/internship">
+                <Link
+                  className="nav-link"
+                  to="/internship"
+                  onClick={() => {
+                    this.setTimeout(50, window.location.reload())
+                  }}
+                >
                   Internship
                 </Link>
               </li>
