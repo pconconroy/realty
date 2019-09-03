@@ -24,6 +24,7 @@ export const sendFunc = emailObj => async dispatch => {
   console.log(emailObj)
   try {
     const res = await axios.post('/api/email', emailObj)
+    console.log('this is the email object', res)
     dispatch(sendEmail(res.data))
   } catch (err) {
     console.error(err)

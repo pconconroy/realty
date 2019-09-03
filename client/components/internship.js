@@ -23,6 +23,7 @@ class Internship extends Component {
   }
   handleSubmit = evt => {
     this.props.sendInquiry(this.state)
+    evt.preventDefault()
   }
   render() {
     return (
@@ -44,7 +45,7 @@ class Internship extends Component {
         </ol> */}
             </nav>
             <h1 className="page-title-heading" style={{color: 'white'}}>
-              Internship
+              Internships
             </h1>
           </div>
         </div>
@@ -153,7 +154,8 @@ class Internship extends Component {
                       <button
                         className="btn btn-primary"
                         id="new-button"
-                        type="submit"
+                        // type="submit"
+                        onClick={this.handleSubmit}
                       >
                         Send Message
                       </button>

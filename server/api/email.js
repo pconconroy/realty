@@ -3,7 +3,7 @@ const nodemailer = require('nodemailer')
 module.exports = router
 
 router.post('/', (req, res, next) => {
-  console.log('dfhuashf', req)
+  console.log('we are here yoooooooo', res)
   const {name, email, subject, message} = req.body
 
   let transporter = nodemailer.createTransport({
@@ -21,6 +21,6 @@ router.post('/', (req, res, next) => {
     text: message
   }
   transporter.sendMail(mailOptions, function(err) {
-    err ? next(err) : res.sendStatus(200)
+    err ? next(err) : res.send('hello')
   })
 })
