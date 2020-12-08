@@ -26,8 +26,47 @@ class Home extends Component {
         {/* Hero Slider*/}
         <section
           className="owl-carousel dots-inside controls-hidden-mobile"
-          data-owl-carousel="{ &quot;nav&quot;: true, &quot;dots&quot;: true, &quot;loop&quot;: true, &quot;autoplay&quot;: true, &quot;autoplayTimeout&quot;: 7000 }"
+          data-owl-carousel='{ "nav": true, "dots": true, "loop": true, "autoplay": true, "autoplayTimeout": 7000 }'
         >
+          <div
+            className="bg-cover bg-center bg-no-repeat py-5"
+            style={{backgroundImage: 'url(assets/teton-wheat.jpg)'}}
+          >
+            <span className="bg-overlay" />
+            <div className="container bg-content py-md-5">
+              <div className="row justify-content-center py-md-5">
+                <div className="col-12 text-center py-md-5">
+                  <div
+                    className="d-table w-100 bg-no-repeat bg-center"
+                    style={{
+                      minHeight: 448,
+                      backgroundSize: '452px 448px',
+                    }}
+                  >
+                    <div className="d-table-cell align-middle">
+                      <h2 className="display-4 text-white">
+                        <em className="font-weight-light">
+                          Jackson Office Now Open!
+                        </em>
+                      </h2>
+                      <p className="text-xl text-white opacity-75 pb-4">
+                        Find Us at 970 W Broadway STE E-406
+                      </p>
+                      <Link
+                        className="btn btn-style-4 btn-light"
+                        to="/about"
+                        onClick={() => {
+                          this.setTimeout(50, window.location.reload())
+                        }}
+                      >
+                        Learn More
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div
             className="bg-cover bg-center bg-no-repeat py-5"
             style={{backgroundImage: 'url(assets/chicagoskynight.jpg)'}}
@@ -40,7 +79,7 @@ class Home extends Component {
                     className="d-table w-100 bg-no-repeat bg-center"
                     style={{
                       minHeight: 448,
-                      backgroundSize: '452px 448px'
+                      backgroundSize: '452px 448px',
                     }}
                   >
                     <div className="d-table-cell align-middle">
@@ -80,7 +119,7 @@ class Home extends Component {
                     className="d-table w-100 bg-no-repeat bg-center"
                     style={{
                       minHeight: 448,
-                      backgroundSize: '452px 448px'
+                      backgroundSize: '452px 448px',
                     }}
                   >
                     <div className="d-table-cell align-middle">

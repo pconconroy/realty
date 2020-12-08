@@ -101,8 +101,9 @@ class Commercial extends Component {
             </table>
             <div id="center-com">
               <h2 id="font-boi">
-                Development Advisory services are provided through a subsidiary
-                company
+                Capital Market execution services are provided by S.A. Realty
+                Advisors and Development Advisory services are provided through
+                a subsidiary company
               </h2>
             </div>
           </div>

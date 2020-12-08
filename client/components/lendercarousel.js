@@ -18,8 +18,18 @@ class LenderCarousel extends Component {
             <div
               className="owl-carousel"
               id="carousel"
-              data-owl-carousel="{ &quot;nav&quot;: true, &quot;dots&quot;: true, &quot;loop&quot;: true, &quot;margin&quot;: 30, &quot;autoplay&quot;: true, &quot;autoplayTimeout&quot;: 4000, &quot;responsive&quot;: {&quot;0&quot;:{&quot;items&quot;:1},&quot;630&quot;:{&quot;items&quot;:2},&quot;991&quot;:{&quot;items&quot;:3},&quot;1200&quot;:{&quot;items&quot;:4}} }"
+              data-owl-carousel='{ "nav": true, "dots": true, "loop": true, "margin": 30, "autoplay": true, "autoplayTimeout": 4000, "responsive": {"0":{"items":1},"630":{"items":2},"991":{"items":3},"1200":{"items":4}} }'
             >
+              <img
+                src="/assets/kansaslife.jpg"
+                id="centered-caro"
+                alt="Carousel Image"
+              />
+              <img
+                src="/assets/royal-neighbors.png"
+                id="centered-caro"
+                alt="Carousel Image"
+              />
               <img src="/assets/coram.png" alt="Carousel Image" />
               <img
                 src="/assets/aegon.png"

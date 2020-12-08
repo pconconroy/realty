@@ -12,7 +12,8 @@ class Footer extends Component {
             style={{backgroundImage: 'url(assets/chiskyline-min.jpg)'}}
           >
             <h2 className="block-title text-white mt-5 mb-4">
-              Why Prairie Realty Advisors?<small className="text-white">
+              Why Prairie Realty Advisors?
+              <small className="text-white">
                 We are a leading company with over 25 years of Experience
               </small>
             </h2>
@@ -28,7 +29,7 @@ class Footer extends Component {
           </div>
         </section>
         <footer className="bg-dark pt-5">
-          <div className="container pt-2">
+          <div className="container pt-2" id="add-padding-to-footer">
             <div className="row">
               <div className="col-lg-3 pb-4 mb-2">
                 <a
@@ -59,7 +60,18 @@ class Footer extends Component {
                       className="navi-link text-white"
                       href="https://goo.gl/maps/aep1cCdZwXEEV7dp6"
                     >
-                      &nbsp;650 N Dearborn St, Suite 500, Chicago, IL, 60657
+                      &nbsp;Chicago Office: <br />
+                      650 N Dearborn St, Suite 500, Chicago, IL, 60657
+                    </a>
+                  </li>
+                  <li>
+                    <i className="fe-icon-map-pin text-white opacity-60" />
+                    <a
+                      className="navi-link text-white"
+                      href="https://goo.gl/maps/aep1cCdZwXEEV7dp6"
+                    >
+                      &nbsp;Jackson Office: <br />
+                      970 W. Broadway, STE E-406 Jackson, WY 83001
                     </a>
                   </li>
                   <li>
@@ -168,6 +180,16 @@ class Footer extends Component {
                             }}
                           >
                             Expertise and Inquiries
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            to="/saraAbout"
+                            onClick={() => {
+                              this.setTimeout(50, window.location.reload())
+                            }}
+                          >
+                            SARA Capital Markets
                           </Link>
                         </li>
                         {/* <li>

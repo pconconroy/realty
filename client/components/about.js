@@ -49,13 +49,13 @@ class About extends Component {
               2003.
             </li>
             <li className="list-group-item">
-              Four commercial real estate finance professionals.
+              Six commercial real estate finance professionals.
             </li>
             <li className="list-group-item">
               Servicing Portfolio of over $300 million.
             </li>
             <li className="list-group-item">
-              Ten(10) correspondent lender relationships.
+              Twelve(12) correspondent lender relationships.
             </li>
             <li className="list-group-item">Over 400 financings since 2000.</li>
           </ul>
@@ -101,11 +101,12 @@ class About extends Component {
             <div className="d-md-table-cell align-middle pl-md-4 pl-lg-5 text-center text-md-left">
               <h3 className="h4">Who We Serve</h3>
               <p className="text-muted">
-                Headquartered in Chicago, the firm services a direct market of
-                over 15 million people. PRA takes special pride in the fact that
-                it is employed by its clients across geographic boundaries. It
-                works hard to create a bond between lender and borrower in an
-                attempt to realizing a higher percentage of repeat business.
+                With offices in Chicago and Jackson, Wyoming the firm services a
+                direct market of over 16 million people. PRA takes special pride
+                in the fact that it is employed by its clients across geographic
+                boundaries. It works hard to create a bond between lender and
+                borrower in an attempt to realizing a higher percentage of
+                repeat business.
               </p>
             </div>
           </div>
@@ -124,9 +125,9 @@ class About extends Component {
             <div className="d-md-table-cell align-middle pl-md-4 pl-lg-5 text-center text-md-left">
               <h3 className="h4">Who We Are</h3>
               <p className="text-muted">
-                As of the 2nd Q of 2019, the firm consists of a team of four.
+                As of the 1st Q of 2021, the firm consists of a team of six.
                 There are 15 additional former employees who we recognize for
-                their contributions in helping in PRA’s success over the past 26
+                their contributions in helping in PRA’s success over the past 29
                 years.
                 <br />
                 <br />
@@ -135,9 +136,9 @@ class About extends Component {
                 member of the Mortgage Bankers Association (“MBA”). It has held
                 licenses from the State of Illinois and Wisconsin and supported
                 ULI for many years. Loan production and corporate governance is
-                John’s job. Loan production and lender cultivation are Alby’s
-                focus. Jon and Steve provide overview and back office
-                organization and stability.
+                John’s job. Loan production and lender cultivation are Alby's
+                and James' focus. Angie, Jon, and Steve provide overview and
+                back office organization and stability.
                 {/* As of the second quarter of 2017, the firm has four employees.
                 Loan production and firm administration are the responsibility
                 of John F. Siff, President. Mr. Alby Van Alyea, Managing

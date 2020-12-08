@@ -3,7 +3,6 @@ const nodemailer = require('nodemailer')
 module.exports = router
 
 router.post('/', (req, res, next) => {
-  console.log('we are here yoooooooo', res)
   const {name, email, subject, message} = req.body
 
   let transporter = nodemailer.createTransport({

@@ -20,11 +20,9 @@ const sendEmail = emailObjSent => ({type: SEND_EMAIL, emailObjSent})
  * THUNK CREATORS
  */
 export const sendFunc = emailObj => async dispatch => {
-  console.log('here')
-  console.log(emailObj)
   try {
     const res = await axios.post('/api/email', emailObj)
-    console.log('this is the email object', res)
+
     dispatch(sendEmail(res.data))
   } catch (err) {
     console.error(err)

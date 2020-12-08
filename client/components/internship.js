@@ -4,6 +4,7 @@ import {connect} from 'react-redux'
 import {sendFunc} from '../store/email'
 import Navbar from './navbar'
 import Footer from './footer'
+import * as emailjs from 'emailjs-com'
 
 class Internship extends Component {
   constructor() {
@@ -16,14 +17,32 @@ class Internship extends Component {
     }
   }
   handleChange = evt => {
-    console.log('changes', this.state)
     this.setState({
       [evt.target.name]: evt.target.value
     })
   }
-  handleSubmit = evt => {
-    this.props.sendInquiry(this.state)
+  handleSubmit = async evt => {
+    // this.props.sendInquiry(this.state)
     evt.preventDefault()
+    function sendy() {
+      emailjs.init('user_REUcFJwS0HWECsNioqd7j')
+    }
+    sendy()
+    let templateParams = {
+      from_name: this.state.name,
+      reply_to: this.state.email,
+      message_info: this.state.message,
+      subject_stuff: this.state.subject
+    }
+    await emailjs.send('gmail', 'template_JZwGGpou', templateParams).then(
+      function(response) {
+        console.log('SUCCESS!', response.status, response.text)
+      },
+      function(error) {
+        console.log('FAILED...', error)
+      }
+    )
+    window.location.reload()
   }
   render() {
     return (
@@ -62,7 +81,10 @@ class Internship extends Component {
                   <form
                     className="needs-validation"
                     noValidate
-                    onSubmit={this.handleSubmit}
+                    onSubmit={() => {
+                      this.handleSubmit()
+                      setTimeout(2000)
+                    }}
                   >
                     <div className="row pt-3">
                       <div className="col-sm-6">
@@ -123,7 +145,7 @@ class Internship extends Component {
                             className="form-control"
                             type="text"
                             id="contact-subject"
-                            placeholder="Provide short title of you request"
+                            placeholder="Provide short title of your request"
                           />
                         </div>
                       </div>

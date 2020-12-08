@@ -93,6 +93,19 @@ const Navbar = ({handleClick, isLoggedIn}) => (
               </Link>
             </div>
           </div>
+          <div className="card">
+            <div className="card-header">
+              <Link
+                className="mobile-menu-link"
+                to="/saraAbout"
+                onClick={() => {
+                  this.setTimeout(50, window.location.reload())
+                }}
+              >
+                SARA Capital Markets
+              </Link>
+            </div>
+          </div>
           {/* Pages*/}
           {/* <div className="card">
             <div className="card-header">
@@ -209,6 +222,17 @@ const Navbar = ({handleClick, isLoggedIn}) => (
                   Transactions
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link"
+                  to="/saraAbout"
+                  onClick={() => {
+                    this.setTimeout(500, window.location.reload())
+                  }}
+                >
+                  SARA Capital Markets
+                </Link>
+              </li>
               <li className="nav-item dropdown-toggle">
                 <Link
                   className="nav-link"
@@ -220,6 +244,17 @@ const Navbar = ({handleClick, isLoggedIn}) => (
                   Internship
                 </Link>
               </li>
+              {/* <li className="nav-item">
+                <p
+                  className="nav-link"
+                  style={{color: 'red', fontWeight: 'bold', fontSize: '150%'}}
+                  onClick={() => {
+                    this.setTimeout(500, window.location.reload())
+                  }}
+                >
+                  Jackson Office Now Open!
+                </p>
+              </li> */}
             </ul>
             <div>
               <ul className="navbar-buttons d-inline-block align-middle">
@@ -240,17 +275,17 @@ const Navbar = ({handleClick, isLoggedIn}) => (
 /**
  * CONTAINER
  */
-const mapState = state => {
+const mapState = (state) => {
   return {
-    isLoggedIn: !!state.user.id
+    isLoggedIn: !!state.user.id,
   }
 }
 
-const mapDispatch = dispatch => {
+const mapDispatch = (dispatch) => {
   return {
     handleClick() {
       dispatch(logout())
-    }
+    },
   }
 }
 
@@ -261,5 +296,5 @@ export default connect(mapState, mapDispatch)(Navbar)
  */
 Navbar.propTypes = {
   handleClick: PropTypes.func.isRequired,
-  isLoggedIn: PropTypes.bool.isRequired
+  isLoggedIn: PropTypes.bool.isRequired,
 }

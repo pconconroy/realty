@@ -245,3 +245,6 @@ h4:first-child {
     darkblue 100%
   ) !important;
 }
+#add-padding-to-footer {
+  margin-bottom: 32px;
+}
