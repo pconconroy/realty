@@ -38,6 +38,31 @@ class About extends Component {
         </div>
         {/* Page Content*/}
         <div className="container pb-5 mb-3">
+          <h1>Jackson Office Now Open</h1>
+          {/* <h3 id="center-text">
+            Now serving an area that extends from Cheyenne to Rock Springs and
+            Idaho Falls to Bozeman. Helping investors in institutional real
+            estate find attractive, competitve capital.
+          </h3> */}
+          <section className="container my-5">
+            <div className="bg-secondary px-3 py-5">
+              <div className="row justify-content-center">
+                <div
+                  className="col-xl-8 col-lg-10 pt-3 text-center"
+                  id="no-padd"
+                >
+                  <h2 id="font-boi">
+                    Now serving an area that extends from Cheyenne to Rock
+                    Springs and Idaho Falls to Bozeman. Helping investors in
+                    institutional real estate find attractive, competitve
+                    capital.
+                  </h2>
+
+                  {/* <a className="video-player-button my-3 mr-3" href="https://player.vimeo.com/video/56362909?color=ac32e4&title=0&byline=0&portrait=0" data-fancybox data-width={1000} data-height={563}><i className="fe-icon-play" /></a><span className="video-player-label text-muted">Corporate video</span> */}
+                </div>
+              </div>
+            </div>
+          </section>
           {/* Buy Online*/}
           <h1>The Facts</h1>
           <ul className="list-group">

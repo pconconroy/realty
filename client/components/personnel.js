@@ -39,9 +39,9 @@ class Personnel extends Component {
             <h3 className="h4 mb-1">Our Team</h3>
             <p className="text-muted">The people making it happen.</p>
           </div>
-          <div className="row">
+          <div className="row" id="center-team">
             {/* Team member*/}
-            <div className="col-xl-3 col-sm-6 mb-30">
+            <div className="col-xl-3 col-sm-6 mb-30" id="make-wider">
               <div className="team-card-style-3 mx-auto">
                 <div className="team-thumb">
                   <img src="assets/siffphoto.jpeg" alt="Team Member Picture" />
@@ -80,7 +80,7 @@ class Personnel extends Component {
               </div>
             </div>
             {/* Team member*/}
-            <div className="col-xl-3 col-sm-6 mb-30">
+            <div className="col-xl-3 col-sm-6 mb-30" id="make-wider">
               <div className="team-card-style-3 mx-auto">
                 <div className="team-thumb">
                   <img src="assets/albypic2.jpg" alt="Team Member Picture" />
@@ -117,8 +117,101 @@ class Personnel extends Component {
           </div> */}
               </div>
             </div>
+            <div className="col-xl-3 col-sm-6 mb-30" id="make-wider">
+              <div className="team-card-style-3 mx-auto">
+                <div className="team-thumb">
+                  <img
+                    src="assets/jamie-blue-grad.jpg"
+                    alt="Team Member Picture"
+                  />
+                </div>
+                <span className="team-position">Production Officer</span>
+                <h4 className="team-name">Vernon James Armour</h4>
+                <a className="team-contact-link" href="tel:+19871625346">
+                  <i className="fe-icon-phone" />
+                  &nbsp;(312) 220-0053
+                </a>
+                <a
+                  className="team-contact-link"
+                  href="mailto:john.siff@prairierealtyadvisors.com"
+                >
+                  <i className="fe-icon-mail" />
+                  &nbsp;james.armour@prairierealtyadvisors.com
+                </a>
+                <br />
+                <p>
+                  James joined PRA in 2020 as our newest member of the loan
+                  production team. Additionally, his joining the company
+                  coincides with the establishment of a capital markets
+                  presence, known as S.A. Realty Advisors. James has 8 years of
+                  multi-family experience having worked for a fund management
+                  firm that developed, repositioned and disposed of Chicago area
+                  properties. Additionally, he has a specialty practice
+                  representing US bankruptcy Trustees in disposition of real
+                  property. James graduated from Roanoke College in Virginia
+                  with a degree in History. He is an avid golfer and
+                  outdoorsman. In his free time, he volunteers for the Evans
+                  Scholars Foundation.
+                </p>
+                {/* <div className="team-social-bar-wrap">
+            <div className="team-social-bar"><a className="social-btn sb-style-1 sb-twitter" href="#"><i className="socicon-twitter" /></a><a className="social-btn sb-style-1 sb-github" href="#"><i className="socicon-github" /></a><a className="social-btn sb-style-1 sb-stackoverflow" href="#"><i className="socicon-stackoverflow" /></a><a className="social-btn sb-style-1 sb-skype" href="#"><i className="socicon-skype" /></a></div>
+          </div> */}
+              </div>
+            </div>
             {/* Team member*/}
-            <div className="col-xl-3 col-sm-6 mb-30">
+
+            {/* Team member*/}
+
+            {/* Team member*/}
+
+            {/* Team member*/}
+          </div>
+          <div className="row" id="center-team">
+            <div className="col-xl-3 col-sm-6 mb-30" id="make-wider">
+              <div className="team-card-style-3 mx-auto">
+                <div className="team-thumb">
+                  <img
+                    src="assets/angie-grad-blue.jpg"
+                    alt="Team Member Picture"
+                  />
+                </div>
+                <span className="team-position">Controller</span>
+                <h4 className="team-name">Angie Jackson</h4>
+                <a className="team-contact-link" href="tel:+19871625346">
+                  <i className="fe-icon-phone" />
+                  &nbsp;(662) 418-4994
+                </a>
+                <a
+                  className="team-contact-link"
+                  href="mailto:john.siff@prairierealtyadvisors.com"
+                >
+                  <i className="fe-icon-mail" />
+                  &nbsp;angie@criterion3.com
+                </a>
+                <br />
+                <p>
+                  Angie Joined PRA in 2019. Angie brings over 25 years of real
+                  estate property management and project development experience
+                  in rolls that range from property management, portfolio
+                  management, new site development to COO of a related
+                  multi-state vertical real estate enterprise. She oversees day
+                  to day financial activities including A/R and A/P, primary
+                  banking relationship management and reporting functions all of
+                  PRA, SARA and PRAH. Angie is mother to two teen daughters. She
+                  graduated from SUI and is an avid skier, boater and outdoors
+                  person.
+                </p>
+                {/* <div className="team-social-bar-wrap">
+            <div className="team-social-bar"><a className="social-btn sb-style-1 sb-twitter" href="#"><i className="socicon-twitter" /></a><a className="social-btn sb-style-1 sb-github" href="#"><i className="socicon-github" /></a><a className="social-btn sb-style-1 sb-stackoverflow" href="#"><i className="socicon-stackoverflow" /></a><a className="social-btn sb-style-1 sb-skype" href="#"><i className="socicon-skype" /></a></div>
+          </div> */}
+              </div>
+            </div>
+            {/* Team member*/}
+
+            {/* Team member*/}
+
+            {/* Team member*/}
+            <div className="col-xl-3 col-sm-6 mb-30" id="make-wider">
               <div className="team-card-style-3 mx-auto">
                 <div className="team-thumb">
                   <img src="assets/sabitt.jpg" alt="Team Member Picture" />
@@ -149,8 +242,9 @@ class Personnel extends Component {
           </div> */}
               </div>
             </div>
+
             {/* Team member*/}
-            <div className="col-xl-3 col-sm-6 mb-30">
+            <div className="col-xl-3 col-sm-6 mb-30" id="make-wider">
               <div className="team-card-style-3 mx-auto">
                 <div className="team-thumb">
                   <img src="assets/isaac.jpg" alt="Team Member Picture" />
@@ -187,87 +281,8 @@ class Personnel extends Component {
               </div>
             </div>
             {/* Team member*/}
-            <div className="col-xl-3 col-sm-6 mb-30">
-              <div className="team-card-style-3 mx-auto">
-                <div className="team-thumb">
-                  <img
-                    src="assets/angie-grad-blue.jpg"
-                    alt="Team Member Picture"
-                  />
-                </div>
-                <span className="team-position">Controller</span>
-                <h4 className="team-name">Angie Jackson</h4>
-                <a className="team-contact-link" href="tel:+19871625346">
-                  <i className="fe-icon-phone" />
-                  &nbsp;(662) 418-4994
-                </a>
-                <a
-                  className="team-contact-link"
-                  href="mailto:john.siff@prairierealtyadvisors.com"
-                >
-                  <i className="fe-icon-mail" />
-                  &nbsp;john.siff@prairierealtyadvisors.com
-                </a>
-                <br />
-                <p>
-                  Angie Joined PRA in 2019. Angie brings over 25 years of real
-                  estate property management and project development experience
-                  in rolls that range from property management, portfolio
-                  management, new site development to COO of a related
-                  multi-state vertical real estate enterprise. She oversees day
-                  to day financial activities including A/R and A/P, primary
-                  banking relationship management and reporting functions all of
-                  PRA, SARA and PRAH. Angie is mother to two teen daughters. She
-                  graduated from SUI and is an avid skier, boater and outdoors
-                  person.
-                </p>
-                {/* <div className="team-social-bar-wrap">
-            <div className="team-social-bar"><a className="social-btn sb-style-1 sb-twitter" href="#"><i className="socicon-twitter" /></a><a className="social-btn sb-style-1 sb-github" href="#"><i className="socicon-github" /></a><a className="social-btn sb-style-1 sb-stackoverflow" href="#"><i className="socicon-stackoverflow" /></a><a className="social-btn sb-style-1 sb-skype" href="#"><i className="socicon-skype" /></a></div>
-          </div> */}
-              </div>
-            </div>
+
             {/* Team member*/}
-            <div className="col-xl-3 col-sm-6 mb-30">
-              <div className="team-card-style-3 mx-auto">
-                <div className="team-thumb">
-                  <img
-                    src="assets/jamie-blue-grad.jpg"
-                    alt="Team Member Picture"
-                  />
-                </div>
-                <span className="team-position">Production Officer</span>
-                <h4 className="team-name">Vernon James Armour</h4>
-                <a className="team-contact-link" href="tel:+19871625346">
-                  <i className="fe-icon-phone" />
-                  &nbsp;(312) 220-0053
-                </a>
-                <a
-                  className="team-contact-link"
-                  href="mailto:john.siff@prairierealtyadvisors.com"
-                >
-                  <i className="fe-icon-mail" />
-                  &nbsp;john.siff@prairierealtyadvisors.com
-                </a>
-                <br />
-                <p>
-                  James joined PRA in 2020 as our newest member of the loan
-                  production team. Additionally, his joining the company
-                  coincides with the establishment of a capital markets
-                  presence, known as S.A. Realty Advisors. James has 8 years of
-                  multi-family experience having worked for fund management firm
-                  that developed, repositioned and disposed of Chicago area
-                  properties. Additionally, he has a specialty practice
-                  representing US bankruptcy Trustees in disposition of real
-                  property. James graduated from Roanoke College in Virginia
-                  with a degree in History. He is an avid golfer and
-                  outdoorsman. In his free time, he volunteers for the Evans
-                  Scholars Foundation.
-                </p>
-                {/* <div className="team-social-bar-wrap">
-            <div className="team-social-bar"><a className="social-btn sb-style-1 sb-twitter" href="#"><i className="socicon-twitter" /></a><a className="social-btn sb-style-1 sb-github" href="#"><i className="socicon-github" /></a><a className="social-btn sb-style-1 sb-stackoverflow" href="#"><i className="socicon-stackoverflow" /></a><a className="social-btn sb-style-1 sb-skype" href="#"><i className="socicon-skype" /></a></div>
-          </div> */}
-              </div>
-            </div>
           </div>
         </div>
         {/* Footer*/}

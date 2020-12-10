@@ -26,84 +26,84 @@ const Navbar = ({handleClick, isLoggedIn}) => (
           {/* Home*/}
           <div className="card">
             <div className="card-header">
-              <Link
+              <a
                 className="mobile-menu-link"
-                to="/home"
+                href="/home"
                 onClick={() => {
                   this.setTimeout(50, window.location.reload())
                 }}
               >
                 Home
-              </Link>
+              </a>
             </div>
           </div>
           {/* Portfolio*/}
           <div className="card">
             <div className="card-header">
-              <Link
+              <a
                 className="mobile-menu-link"
-                to="/internship"
+                href="/internship"
                 onClick={() => {
                   this.setTimeout(50, window.location.reload())
                 }}
               >
                 Internship
-              </Link>
+              </a>
             </div>
           </div>
           {/* Blog*/}
           <div className="card">
             <div className="card-header">
-              <Link
+              <a
                 className="mobile-menu-link"
-                to="/about"
+                href="/about"
                 onClick={() => {
                   this.setTimeout(50, window.location.reload())
                 }}
               >
                 Why Us
-              </Link>
+              </a>
             </div>
           </div>
           {/* Shop*/}
           <div className="card">
             <div className="card-header">
-              <Link
+              <a
                 className="mobile-menu-link"
-                to="/personnel"
+                href="/personnel"
                 onClick={() => {
                   this.setTimeout(50, window.location.reload())
                 }}
               >
                 Team
-              </Link>
+              </a>
             </div>
           </div>
           {/* Account*/}
           <div className="card">
             <div className="card-header">
-              <Link
+              <a
                 className="mobile-menu-link"
-                to="/commercial"
+                href="/commercial"
                 onClick={() => {
                   this.setTimeout(50, window.location.reload())
                 }}
               >
                 Expertise and Inquiries
-              </Link>
+              </a>
             </div>
           </div>
           <div className="card">
             <div className="card-header">
-              <Link
+              <a
                 className="mobile-menu-link"
-                to="/saraAbout"
+                href="/saraAbout"
                 onClick={() => {
                   this.setTimeout(50, window.location.reload())
                 }}
               >
                 SARA Capital Markets
-              </Link>
+              </a>
             </div>
           </div>
           {/* Pages*/}
@@ -117,15 +117,15 @@ const Navbar = ({handleClick, isLoggedIn}) => (
           {/* Components*/}
           <div className="card">
             <div className="card-header">
-              <Link
+              <a
                 className="mobile-menu-link"
-                to="/transactions"
+                href="/transactions"
                 onClick={() => {
                   this.setTimeout(50, window.location.reload())
                 }}
               >
                 Transactions
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -156,53 +156,53 @@ const Navbar = ({handleClick, isLoggedIn}) => (
             <ul className="navbar-nav d-none d-lg-block">
               {/* Home*/}
               <li className="nav-item mega-dropdown-toggle">
-                <Link
+                <a
                   className="nav-link"
-                  to="/home"
+                  href="/home"
                   onClick={() => {
                     this.setTimeout(50, window.location.reload())
                   }}
                 >
                   Home
-                </Link>
+                </a>
               </li>
               {/* Portfolio*/}
 
               {/* Blog*/}
               <li className="nav-item mega-dropdown-toggle">
-                <Link
+                <a
                   className="nav-link"
-                  to="/about"
+                  href="/about"
                   onClick={() => {
                     this.setTimeout(50, window.location.reload())
                   }}
                 >
                   Why Us
-                </Link>
+                </a>
               </li>
               {/* Shop*/}
               <li className="nav-item mega-dropdown-toggle">
-                <Link
+                <a
                   className="nav-link"
-                  to="personnel"
+                  href="personnel"
                   onClick={() => {
                     this.setTimeout(50, window.location.reload())
                   }}
                 >
                   Team
-                </Link>
+                </a>
               </li>
               {/* Account*/}
               <li className="nav-item dropdown-toggle">
-                <Link
+                <a
                   className="nav-link"
-                  to="/commercial"
+                  href="/commercial"
                   onClick={() => {
                     this.setTimeout(50, window.location.reload())
                   }}
                 >
                   Expertise and Inquiries
-                </Link>
+                </a>
               </li>
               {/* Pages*/}
               {/* <li className="nav-item dropdown-toggle">
@@ -212,37 +212,37 @@ const Navbar = ({handleClick, isLoggedIn}) => (
               </li> */}
               {/* Components*/}
               <li className="nav-item">
-                <Link
+                <a
                   className="nav-link"
-                  to="/transactions"
-                  onClick={() => {
-                    this.setTimeout(500, window.location.reload())
-                  }}
+                  href="/transactions"
+                  // onClick={() => {
+                  //   this.setTimeout(500, window.location.reload())
+                  // }}
                 >
                   Transactions
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link
+                <a
                   className="nav-link"
-                  to="/saraAbout"
+                  href="/saraAbout"
                   onClick={() => {
                     this.setTimeout(500, window.location.reload())
                   }}
                 >
                   SARA Capital Markets
-                </Link>
+                </a>
               </li>
               <li className="nav-item dropdown-toggle">
-                <Link
+                <a
                   className="nav-link"
-                  to="/internship"
+                  href="/internship"
                   onClick={() => {
                     this.setTimeout(50, window.location.reload())
                   }}
                 >
                   Internship
-                </Link>
+                </a>
               </li>
               {/* <li className="nav-item">
                 <p

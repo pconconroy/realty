@@ -50,17 +50,18 @@ class Home extends Component {
                         </em>
                       </h2>
                       <p className="text-xl text-white opacity-75 pb-4">
-                        Find Us at 970 W Broadway STE E-406
+                        New location, new oppurtunities same old number, call
+                        (312) 220-0051.
                       </p>
-                      <Link
+                      <a
                         className="btn btn-style-4 btn-light"
-                        to="/about"
-                        onClick={() => {
-                          this.setTimeout(50, window.location.reload())
-                        }}
+                        href="/about"
+                        // onClick={() => {
+                        //   this.setTimeout(50, window.location.reload())
+                        // }}
                       >
                         Learn More
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -92,15 +93,15 @@ class Home extends Component {
                         Over $3.0 billion in commercial financing since
                         September 1992.
                       </p>
-                      <Link
+                      <a
                         className="btn btn-style-4 btn-light"
-                        to="/about"
-                        onClick={() => {
-                          this.setTimeout(50, window.location.reload())
-                        }}
+                        href="/about"
+                        // onClick={() => {
+                        //   this.setTimeout(50, window.location.reload())
+                        // }}
                       >
                         Learn More
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -131,15 +132,15 @@ class Home extends Component {
                       <p className="text-xl text-white opacity-75 pb-4">
                         Servicing Portfolio of over $300 million.
                       </p>
-                      <Link
+                      <a
                         className="btn btn-style-4 btn-light"
-                        to="/about"
-                        onClick={() => {
-                          this.setTimeout(50, window.location.reload())
-                        }}
+                        href="/about"
+                        // onClick={() => {
+                        //   this.setTimeout(50, window.location.reload())
+                        // }}
                       >
                         Learn More
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
